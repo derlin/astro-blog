@@ -4,7 +4,6 @@ description: "Kotlin functions are first-class citizens. Let's understand togeth
 pubDate: '2023-03-13'
 updatedDate: '2023-03-15'
 heroImage: './e92a4a62-5995-4670-bdb6-0ec454f1c437.png'
-readTime: 7
 tags: ['kotlin', 'functional-programming', 'kotlin-beginner']
 ---
 

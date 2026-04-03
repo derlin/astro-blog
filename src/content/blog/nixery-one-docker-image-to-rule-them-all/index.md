@@ -4,7 +4,6 @@ description: "Learn how to run Docker containers with the exact tools you need, 
 pubDate: '2022-06-27'
 updatedDate: '2023-01-13'
 heroImage: './M20yS_a3w.png'
-readTime: 2
 tags: ['docker', 'kubernetes', 'devops', 'productivity']
 ---
 

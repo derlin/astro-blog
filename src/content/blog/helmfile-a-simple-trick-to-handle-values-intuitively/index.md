@@ -4,7 +4,6 @@ description: "Learn how to simplify values handling within big helmfiles, by mim
 pubDate: '2022-06-20'
 updatedDate: '2023-04-18'
 heroImage: './uO7UP6Ly-.png'
-readTime: 4
 tags: ['helm', 'helmfile', 'kubernetes', 'devops']
 ---
 

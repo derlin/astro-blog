@@ -6,7 +6,6 @@ Mot..."
 pubDate: '2021-09-22'
 updatedDate: '2023-01-13'
 heroImage: './WpcY9y7w5.png'
-readTime: 6
 tags: ['jenkins', 'tools', 'javascript']
 ---
 

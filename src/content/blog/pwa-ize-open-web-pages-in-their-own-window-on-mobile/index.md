@@ -4,7 +4,6 @@ description: "Too many tabs opened on mobile? PWA-ize the sites you visit the mo
 pubDate: '2021-12-07'
 updatedDate: '2023-01-13'
 heroImage: './k7_AY1ZBr.png'
-readTime: 6
 tags: ['android', 'opensource', 'javascript', 'pwa']
 ---
 

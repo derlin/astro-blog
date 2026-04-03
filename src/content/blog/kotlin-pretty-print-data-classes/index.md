@@ -4,7 +4,6 @@ description: "Learn how to pretty-print Kotlin data classes through different ap
 pubDate: '2021-09-13'
 updatedDate: '2023-01-13'
 heroImage: './2g6Cq6B3q.png'
-readTime: 6
 tags: ['kotlin', 'tips-and-tricks']
 ---
 

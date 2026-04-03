@@ -4,7 +4,6 @@ description: "Find and download the favicon(s) of any domain using a hidden Goog
 pubDate: '2021-10-28'
 updatedDate: '2023-01-13'
 heroImage: './_pWsCqZzl.png'
-readTime: 1
 tags: ['tools', 'web-development', 'apis']
 ---
 

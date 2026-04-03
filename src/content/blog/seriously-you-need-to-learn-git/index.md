@@ -3,7 +3,6 @@ title: "Seriously, You Need to Learn Git"
 description: "Most developers do not take the time to learn git. Let me prove it and give some advice on how to really start learning git."
 pubDate: '2024-07-22'
 heroImage: './63d08a01-70c8-4567-b67a-2a8b0758e7c5.jpeg'
-readTime: 6
 tags: ['git', 'learning', 'productivity', 'opinion']
 ---
 

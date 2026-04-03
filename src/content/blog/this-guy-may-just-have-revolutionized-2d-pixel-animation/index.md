@@ -4,7 +4,6 @@ description: "Using a simple idea and a custom shader, this guy decoupled animat
 pubDate: '2022-12-14'
 updatedDate: '2022-12-21'
 heroImage: './w1xzEclhU.jpg'
-readTime: 3
 tags: ['game-development', 'animation', 'pixels-art', 'showhashnode']
 ---
 

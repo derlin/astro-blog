@@ -3,7 +3,6 @@ title: "FastAPI + Celery = ♥"
 description: "Interested in Python FastAPI? Wondering how to execute long-running tasks in the background? Let's discover FastAPI+Celery through a practical use case."
 pubDate: '2023-03-27'
 heroImage: './393fcf19-2e4e-46e0-9c33-f0c1a53e871a.png'
-readTime: 2
 tags: ['fastapi', 'python3', 'python-beginner', 'tutorial']
 ---
 

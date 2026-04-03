@@ -4,7 +4,6 @@ description: "Lombok-generated methods should not be part of the coverage report
 pubDate: '2022-09-28'
 updatedDate: '2023-01-13'
 heroImage: './XHE0sVTGz.png'
-readTime: 2
 tags: ['java', 'lombok', 'testing', 'sonarqube']
 ---
 

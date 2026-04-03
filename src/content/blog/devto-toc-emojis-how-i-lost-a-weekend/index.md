@@ -3,7 +3,6 @@ title: "dev.to + TOC + emojis = how I lost a weekend"
 description: "I had to recreate the way dev.to generates anchors in Kotlin Multi-Platform (MPL). It took me way longer than expected! Here is the story."
 pubDate: '2023-04-04'
 heroImage: './3311640b-faee-4004-b7cd-f07c087105a9.png'
-readTime: 8
 tags: ['showhashnode', 'kotlin', 'kotlin-multiplatform', 'developer']
 ---
 

@@ -3,7 +3,6 @@ title: "Ever wondered how cloud providers (PaaS) integrate with GitHub? I did."
 description: "Dissect with me how cloud providers integrate with GitHub, and deepen your knowledge of GitHub tooling (Actions, Web Apps, OAuth Apps)."
 pubDate: '2024-02-06'
 heroImage: './40f02157-d836-4d6e-b51a-d32c435888e1.png'
-readTime: 14
 tags: ['devops', 'github', 'learning', 'cloud']
 ---
 

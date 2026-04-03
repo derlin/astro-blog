@@ -3,7 +3,6 @@ title: "Kotlin is `fun` - Some cool stuff about Kotlin functions"
 description: "The first article of a series delving into Kotlin functions, starting with some cool stuff about them."
 pubDate: '2023-03-06'
 heroImage: './43380a51-2660-457d-a508-c088f149eb77.png'
-readTime: 5
 tags: ['kotlin', 'kotlin-beginner', 'functions']
 ---
 

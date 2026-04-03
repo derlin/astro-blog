@@ -3,7 +3,6 @@ title: "Introducing Mantelo - The Best Keycloak Admin Client for Python"
 description: "Let me introduce mantelo, the best Keycloak Admin Client for Python. We will see how it works and why it is so cool."
 pubDate: '2024-04-02'
 heroImage: './a6bd64ba-c2ff-4b71-a6cd-c78b15c78c4a.png'
-readTime: 5
 tags: ['python', 'keycloak', 'opensource', 'python-libraries']
 ---
 

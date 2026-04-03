@@ -4,7 +4,6 @@ description: "BitDownToc now supports dev.to!
 Learn how you can easily add a table of content to your dev.to article."
 pubDate: '2023-01-02'
 heroImage: './94fede50-5346-4ca7-aadb-9ee70a2a3162.png'
-readTime: 5
 tags: ['productivity', 'writing', 'markdown', 'developer-tools', 'showhashnode']
 ---
 

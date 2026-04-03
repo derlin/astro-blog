@@ -3,7 +3,6 @@ title: "Kotlin is `fun` - lambdas with receivers"
 description: "Learn what are lambdas with receivers in Kotlin through a simple example."
 pubDate: '2023-04-11'
 heroImage: './0d45b776-5326-4e6b-af17-201e829cc554.png'
-readTime: 2
 tags: ['kotlin', 'kotlin-beginner', 'functional-programming', 'beginners']
 ---
 

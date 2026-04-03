@@ -3,7 +3,6 @@ title: "The Twelve-Factor App: A Blueprint for Scalable, Maintainable Software"
 description: "The Twelve-Factor app is a set of best practices that guide the design of Web Apps to achieve high flexibility, scalability, maintainability, and more."
 pubDate: '2024-08-26'
 heroImage: './785e4840-0d40-4fd2-9ddc-55890a0601c5.jpeg'
-readTime: 11
 tags: ['developer', 'design-patterns', 'application-development', 'best-practices']
 ---
 

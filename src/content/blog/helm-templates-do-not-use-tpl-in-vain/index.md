@@ -4,7 +4,6 @@ description: "Helm's `tpl` function is very handy, but can drastically slow down
 pubDate: '2022-05-30'
 updatedDate: '2023-02-22'
 heroImage: './n41SMGvSg.png'
-readTime: 2
 tags: ['helm', 'kubernetes', 'devops', 'performance']
 ---
 

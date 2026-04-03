@@ -3,7 +3,6 @@ title: "A developer's guide to deploy applications on Kubernetes"
 description: "Learn about Kubernetes 101, manifests, Helm, helmfile, and Argo CD from a developer's perspective to deploy your apps on k8s with style."
 pubDate: '2023-05-22'
 heroImage: './969b62b7-c5d2-4b8c-9f54-4b5aafad8b03.png'
-readTime: 2
 tags: ['kubernetes', 'developer', 'tutorial', 'helmfile', 'helm']
 ---
 

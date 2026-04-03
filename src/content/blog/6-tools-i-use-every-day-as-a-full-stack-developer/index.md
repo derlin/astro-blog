@@ -4,7 +4,6 @@ description: "A short list of tools I use daily as a software engineer I can't l
 pubDate: '2022-11-01'
 updatedDate: '2023-01-13'
 heroImage: './qOdzvtDsM.jpg'
-readTime: 4
 tags: ['tools', 'developer']
 ---
 

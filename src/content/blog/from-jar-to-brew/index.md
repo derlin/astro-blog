@@ -3,7 +3,6 @@ title: "From Jar to Brew: distribute your Java programs easily with Homebrew and
 description: "Learn how to distribute a program packaged as a Jar using homebrew and to keep a homebrew tap up-to-date using GitHub actions."
 pubDate: '2024-05-20'
 heroImage: './557e71f8-b0d7-464f-80d3-4f725ddf4fd1.jpeg'
-readTime: 9
 tags: ['java', 'devops', 'homebrew', 'github-actions-1']
 ---
 

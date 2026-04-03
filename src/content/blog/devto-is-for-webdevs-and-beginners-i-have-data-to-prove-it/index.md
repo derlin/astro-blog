@@ -4,7 +4,6 @@ description: "An in-depth data analysis of the trending articles and tags (count
 pubDate: '2022-11-17'
 updatedDate: '2023-01-13'
 heroImage: './H7lJKjO_K.jpg'
-readTime: 10
 tags: ['data-analysis', 'python', 'data-science']
 ---
 

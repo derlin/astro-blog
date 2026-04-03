@@ -4,7 +4,6 @@ description: "Learn about the slumber library and delve into the Python magic by
 pubDate: '2024-04-08'
 updatedDate: '2024-04-09'
 heroImage: './a2c64108-439a-4554-be51-4970f4b2aaf5.png'
-readTime: 6
 tags: ['python', 'tips', 'developer']
 ---
 

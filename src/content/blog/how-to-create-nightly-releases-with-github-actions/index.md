@@ -4,7 +4,6 @@ description: "How to create a \"nightly\" release - a release constantly updated
 pubDate: '2021-10-31'
 updatedDate: '2023-01-13'
 heroImage: './SnKQeZfS5.png'
-readTime: 2
 tags: ['github', 'github-actions']
 ---
 

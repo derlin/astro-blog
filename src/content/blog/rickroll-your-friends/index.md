@@ -4,7 +4,6 @@ description: "A showcase of rickroller, a website to RickRoll your friends like 
 pubDate: '2023-06-12'
 updatedDate: '2024-12-18'
 heroImage: './da54711e-4669-4ab2-8ce5-e6db16d1fefa.png'
-readTime: 11
 tags: ['rickroll', 'python', 'programming-blogs', 'showhashnode']
 ---
 

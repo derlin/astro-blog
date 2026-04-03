@@ -4,7 +4,6 @@ description: "Learn the basics of genetic algorithms - selection, crossover, mut
 pubDate: '2022-04-25'
 updatedDate: '2023-01-13'
 heroImage: './TJ8gCr11R.png'
-readTime: 7
 tags: ['genetic-algorithms', 'pygad', 'python', 'ai', 'algorithms']
 ---
 

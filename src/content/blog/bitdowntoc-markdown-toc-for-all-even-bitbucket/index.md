@@ -7,7 +7,6 @@ Contrary to other tools such as GitHub Wiki TOC generator, it supports many diff
 pubDate: '2021-09-24'
 updatedDate: '2023-01-13'
 heroImage: './-E2E5EObv.png'
-readTime: 2
 tags: ['bitbucket', 'markdown', 'tips', 'developer', 'opensource']
 ---
 

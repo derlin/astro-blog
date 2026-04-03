@@ -4,7 +4,6 @@ description: "Confused between helmfile sync and helmfile apply? Master those co
 pubDate: '2021-10-11'
 updatedDate: '2023-01-13'
 heroImage: './u5FhpMsEv.png'
-readTime: 6
 tags: ['helm', 'helmfile', 'kubernetes']
 ---
 

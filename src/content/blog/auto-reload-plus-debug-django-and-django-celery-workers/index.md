@@ -3,7 +3,6 @@ title: "How to auto reload & debug Django and Django Celery workers running in D
 description: "Learn how to debug and auto-reload Django or Django celery workers (running in docker) using debugpy, watchdog, and django.utils.autoreload."
 pubDate: '2023-08-01'
 heroImage: './ccf00d28-596f-4105-9945-b1a8b11b8f0f.jpeg'
-readTime: 5
 tags: ['python', 'django', 'debugging', 'developer']
 ---
 

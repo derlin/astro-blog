@@ -4,7 +4,6 @@ description: "Learn how to preview GitHub Pages Jekyll sites that use a remote t
 pubDate: '2021-09-29'
 updatedDate: '2023-01-13'
 heroImage: './MiONQ4b_r.png'
-readTime: 3
 tags: ['github', 'jekyll', 'jekyll-themes', 'docker']
 ---
 

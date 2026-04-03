@@ -4,7 +4,6 @@ description: "Learn how to use `kubectl run` to launch ephemeral containers on k
 pubDate: '2022-05-26'
 updatedDate: '2023-01-13'
 heroImage: './7VFaPCc3-.png'
-readTime: 3
 tags: ['devops', 'kubernetes', 'kafka', 'postgresql', 'productivity']
 ---
 

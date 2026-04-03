@@ -3,7 +3,6 @@ title: "Understanding Cloudflare Caching: What Gets Cached and How to Control It
 description: "Let's understand Cloudflare's default caching behaviors and how to make it cache HTML pages the right way."
 pubDate: '2025-03-17'
 heroImage: './d170b795-bddd-45d9-9b00-f39ebbf6be74.png'
-readTime: 7
 tags: ['cloudflare', 'caching', 'webdev']
 ---
 

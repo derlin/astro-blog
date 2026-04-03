@@ -3,7 +3,6 @@ title: "Share your Jupyter Notebooks like a pro"
 description: "Learn how to create beautiful notebooks with interactive plots and host them as HTML on GitHub Pages"
 pubDate: '2023-01-18'
 heroImage: './8e9357eb-60bb-4b7d-8f13-e7da608aa84a.png'
-readTime: 12
 tags: ['data-analysis', 'python', 'github', 'jupyter-notebook']
 ---
 

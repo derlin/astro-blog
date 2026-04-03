@@ -4,7 +4,6 @@ description: "Do you think you know Docker ? Take the quiz and find out how to d
 pubDate: '2022-09-14'
 updatedDate: '2023-01-13'
 heroImage: './Vbjd_N-GC.jpg'
-readTime: 1
 tags: ['docker', 'containers', 'kubernetes', 'learning']
 ---
 

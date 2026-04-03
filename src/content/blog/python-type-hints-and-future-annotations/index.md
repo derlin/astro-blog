@@ -3,7 +3,6 @@ title: "Python, type hints, and future annotations"
 description: "PEP 563 is activated as soon as you import future annotations. This turns annotations to strings, changing the way we read type information at runtime."
 pubDate: '2023-09-13'
 heroImage: './1dd195b4-e380-4e3d-a6b1-7f4c27493467.jpeg'
-readTime: 9
 tags: ['python', 'programming-languages', 'learning-journey', 'python3']
 ---
 

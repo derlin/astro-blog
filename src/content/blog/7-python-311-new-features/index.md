@@ -4,7 +4,6 @@ description: "Python 3.11 is out since October 25, 2022, and comes with great ne
 pubDate: '2022-10-26'
 updatedDate: '2023-01-13'
 heroImage: './fpdKVM7fn.jpg'
-readTime: 5
 tags: ['python', 'python3', 'news']
 ---
 

@@ -4,7 +4,6 @@ description: "Learn how to fake an API in minutes using MockServer, Docker, and 
 pubDate: '2024-05-09'
 updatedDate: '2024-05-11'
 heroImage: './f51c53ee-99d1-464f-8347-261e7f61e834.jpeg'
-readTime: 5
 tags: ['testing', 'tutorial', 'mocking', 'programming-tips', 'devops']
 ---
 

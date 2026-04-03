@@ -3,7 +3,6 @@ title: "Diving Deeper into Python Exceptions"
 description: "Discuss some (advanced) concepts and learn tricks about Python exceptions, such as exception chains, __context__, warnings, and more."
 pubDate: '2024-01-09'
 heroImage: './c84bd44f-71f3-4ceb-abf0-bc7f630f2f45.png'
-readTime: 7
 tags: ['python', 'python3', 'programming-tips', 'programming-blogs']
 ---
 

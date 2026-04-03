@@ -4,7 +4,6 @@ description: "Want to play with Vault and ExternalSecrets, but don't want to spe
 pubDate: '2023-03-08'
 updatedDate: '2023-04-09'
 heroImage: './048e004d-7e0b-44d0-9841-9f14b5ee174d.png'
-readTime: 3
 tags: ['kubernetes', 'hashicorp-vault', 'k3d']
 ---
 

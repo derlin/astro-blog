@@ -3,7 +3,6 @@ title: "I challenged myself to read every day, and it changed my life 📚"
 description: "In May 2020, I made a commitment to read for at least 10 minutes every day, and this challenge changed my life. Maybe it can change yours too?"
 pubDate: '2023-01-31'
 heroImage: './30897c56-9c53-49e8-8c4c-bc4f7d411144.png'
-readTime: 6
 tags: ['watercooler', 'books', 'challenge', 'lifestyle']
 ---
 

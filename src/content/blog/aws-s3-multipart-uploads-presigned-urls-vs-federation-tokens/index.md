@@ -3,7 +3,6 @@ title: "AWS S3 multipart uploads from unauthenticated users? presigned URLs (�
 description: "Need unauthenticated users to upload files to AWS S3 with multipart upload support? A deep look at presigned URLs (😕) and federation tokens (😃)."
 pubDate: '2023-06-26'
 heroImage: './7d3e2bb4-6eb4-45d7-8a05-5371252e7b54.jpeg'
-readTime: 9
 tags: ['aws', 's3', 'devops', 'developer']
 ---
 

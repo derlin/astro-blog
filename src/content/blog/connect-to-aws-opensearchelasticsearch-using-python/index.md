@@ -3,7 +3,6 @@ title: "How to connect to AWS OpenSearch or Elasticsearch clusters using python"
 description: "Connect to an ES/OpenSearch cluster on AWS in Python using elasticsearch or opensearch-py."
 pubDate: '2024-12-18'
 heroImage: './c365a1f6-39aa-4b1d-a9b0-44bf22eae45d.png'
-readTime: 3
 tags: ['python', 'aws', 'aws-opensearch']
 ---
 

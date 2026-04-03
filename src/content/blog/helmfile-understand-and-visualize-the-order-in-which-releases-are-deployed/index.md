@@ -4,7 +4,6 @@ description: "helmfile deployments can fail due to a wrong ordering of releases.
 pubDate: '2022-03-14'
 updatedDate: '2023-01-16'
 heroImage: './4_uOOjnso.png'
-readTime: 4
 tags: ['helmfile', 'helm', 'kubernetes']
 ---
 

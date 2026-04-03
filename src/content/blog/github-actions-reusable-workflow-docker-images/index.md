@@ -4,7 +4,6 @@ description: "So let's go through all the steps required to create a robust reus
 pubDate: '2022-12-05'
 updatedDate: '2022-12-21'
 heroImage: './bfkV9g6K9.png'
-readTime: 11
 tags: ['github', 'docker']
 ---
 

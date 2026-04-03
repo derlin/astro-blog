@@ -4,7 +4,6 @@ description: "Let's discover what are extension functions in Kotlin, and why the
 pubDate: '2023-03-20'
 updatedDate: '2023-04-11'
 heroImage: './282fc323-90f5-4d2f-bcc5-b6c77e57b16d.png'
-readTime: 4
 tags: ['kotlin', 'kotlin-beginner', 'functional-programming', 'beginners']
 ---
 

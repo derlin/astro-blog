@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & { headings: MarkdownHeading[] };
 
-const { title, description, pubDate, updatedDate, heroImage, readTime, headings } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, headings } = Astro.props;
 
 const displayDate = updatedDate ?? pubDate;
 const dateLabel = updatedDate ? 'Updated' : 'Published';
@@ -34,7 +34,7 @@ function formatDate(date: Date) {
 					<h1>{title}</h1>
 					<p class="article-meta">
 						{dateLabel} {formatDate(displayDate)}
-						{readTime && <span>· {readTime} min read</span>}
+	
 					</p>
 				</div>
 				{heroImage && (

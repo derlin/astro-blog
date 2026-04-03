@@ -4,7 +4,6 @@ description: "Learn how to turn any jar into an executable invocable using `./ap
 pubDate: '2022-01-06'
 updatedDate: '2023-01-13'
 heroImage: './dWH5BCuuz.png'
-readTime: 5
 tags: ['java', 'native', 'tips']
 ---
 

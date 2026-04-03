@@ -3,7 +3,6 @@ title: "When plans go astray: my unsuccessful journey of migrating a large Djang
 description: "Learn about my failed attempt at migrating a large Django project to Mypy. We'll talk typed dicts, generics, peps, and more."
 pubDate: '2023-07-10'
 heroImage: './cc3f5dfd-152c-450c-b49b-ef6dc6ce5597.jpeg'
-readTime: 12
 tags: ['python', 'django', 'type-checking', 'mypy']
 ---
 
