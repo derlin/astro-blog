@@ -13,43 +13,25 @@ Dissecting their inner workings, I found various approaches, some better than ot
 
 ---
 
-* [The contenders](#heading-the-contenders)
-    
-* [Google Cloud Run: all the power of GitHub Apps](#heading-google-cloud-run-all-the-power-of-github-apps)
-    
-    * [Overview](#heading-overview)
-        
-    * [What is a GitHub App?](#heading-what-is-a-github-app)
-        
-    * [The process](#heading-the-process)
-        
-    * [Wait... What?](#heading-wait-what)
-        
-    * [Analysis](#heading-analysis)
-        
-* [Azure Static Web Apps: reversing the responsibility](#heading-azure-static-web-apps-reversing-the-responsibility)
-    
-    * [Overview](#heading-overview-1)
-        
-    * [What is a GitHub OAuth App?](#heading-what-is-a-github-oauth-app)
-        
-    * [What is a GitHub Actions workflow?](#heading-what-is-a-github-actions-workflow)
-        
-    * [The process](#heading-the-process-1)
-        
-    * [More about the Azure GitHub Action](#heading-more-about-the-azure-github-action)
-        
-    * [Analysis](#heading-analysis-1)
-        
-* [Heroku: keep it simple](#heading-heroku-keep-it-simple)
-    
-    * [Overview](#heading-overview-2)
-        
-    * [The process](#heading-the-process-2)
-        
-    * [Analysis](#heading-analysis-2)
-        
-* [Summary](#heading-summary)
+- [The contenders](#the-contenders)
+- [Google Cloud Run: all the power of GitHub Apps](#google-cloud-run-all-the-power-of-github-apps)
+  - [Overview](#overview)
+  - [What is a GitHub App?](#what-is-a-github-app)
+  - [The process](#the-process)
+  - [Wait... What?](#wait-what)
+  - [Analysis](#analysis)
+- [Azure Static Web Apps: reversing the responsibility](#azure-static-web-apps-reversing-the-responsibility)
+  - [Overview](#overview-1)
+  - [What is a GitHub OAuth App?](#what-is-a-github-oauth-app)
+  - [What is a GitHub Actions workflow?](#what-is-a-github-actions-workflow)
+  - [The process](#the-process-1)
+  - [More about the Azure GitHub Action](#more-about-the-azure-github-action)
+  - [Analysis](#analysis-1)
+- [Heroku: keep it simple](#heroku-keep-it-simple)
+  - [Overview](#overview-2)
+  - [The process](#the-process-2)
+  - [Analysis](#analysis-2)
+- [Summary](#summary)
     
 
 ---

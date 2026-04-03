@@ -13,16 +13,11 @@ I run Django projects in Docker containers and use Visual Studio Code as my IDE.
 
 In this article:
 
-* [Example docker-compose](#heading-example-docker-compose)
-    
-* [🔄🐞 Debugging a Django app running in Docker](#heading-debugging-a-django-app-running-in-docker)
-    
-* [🐞 Debugging a Django celery worker running in Docker (no auto reload)](#heading-debugging-a-django-celery-worker-running-in-docker-no-auto-reload)
-    
-* [🔄 Auto-reloading a Django celery worker running in Docker (no debug)](#heading-auto-reloading-a-django-celery-worker-running-in-docker-no-debug)
-    
-* [🔄🐞 Debugging a Django celery worker running in Docker with auto-reload](#heading-debugging-a-django-celery-worker-running-in-docker-with-auto-reload)
-    
+- [Example docker-compose](#example-docker-compose)
+- [🔄🐞 Debugging a Django app running in Docker](#-debugging-a-django-app-running-in-docker)
+- [🐞 Debugging a Django celery worker running in Docker (no auto reload)](#-debugging-a-django-celery-worker-running-in-docker-no-auto-reload)
+- [🔄 Auto-reloading a Django celery worker running in Docker (no debug)](#-auto-reloading-a-django-celery-worker-running-in-docker-no-debug)
+- [🔄🐞 Debugging a Django celery worker running in Docker with auto-reload](#-debugging-a-django-celery-worker-running-in-docker-with-auto-reload)
 
 ---
 

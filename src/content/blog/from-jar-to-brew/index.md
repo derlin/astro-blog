@@ -20,28 +20,17 @@ Let's get started!
 
 ---
 
-* [Prerequisites](#heading-prerequisites)
-    
-* [Publish your JAR via homebrew](#heading-publish-your-jar-via-homebrew)
-    
-    * [Step 1: create a fat jar](#heading-step-1-create-a-fat-jar)
-        
-    * [Step 2: make your jar available from a public URL](#heading-step-2-make-your-jar-available-from-a-public-url)
-        
-    * [Step 3: create a homebrew tap](#heading-step-3-create-a-homebrew-tap)
-        
-    * [Step 4: write the formula](#heading-step-4-write-the-formula)
-        
-    * [Step 5: validate and test the formula](#heading-step-5-validate-and-test-the-formula)
-        
-* [Keep the homebrew tap in sync](#heading-keep-the-homebrew-tap-in-sync)
-    
-    * [Step 1: the tap workflow](#heading-step-1-the-tap-workflow)
-        
-    * [Step 2: the app workflow](#heading-step-2-the-app-workflow)
-        
-* [Conclusion](#heading-conclusion)
-    
+- [Prerequisites](#prerequisites)
+- [Publish your JAR via homebrew](#publish-your-jar-via-homebrew)
+  - [Step 1: create a fat jar](#step-1-create-a-fat-jar)
+  - [Step 2: make your jar available from a public URL](#step-2-make-your-jar-available-from-a-public-url)
+  - [Step 3: create a homebrew tap](#step-3-create-a-homebrew-tap)
+  - [Step 4: write the formula](#step-4-write-the-formula)
+  - [Step 5: validate and test the formula](#step-5-validate-and-test-the-formula)
+- [Keep the homebrew tap in sync](#keep-the-homebrew-tap-in-sync)
+  - [Step 1: the tap workflow](#step-1-the-tap-workflow)
+  - [Step 2: the app workflow](#step-2-the-app-workflow)
+- [Conclusion](#conclusion)
 
 ---
 

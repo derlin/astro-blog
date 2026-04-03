@@ -14,27 +14,17 @@ In this article, I want to share with you my vision of a perfect RickRoll prank 
 
 ---
 
-* [What is RickRolling?](#heading-what-is-rickrolling)
-    
-* [My vision of a perfect rickroller](#heading-my-vision-of-a-perfect-rickroller)
-    
-* [The final result](#heading-the-final-result)
-    
-* [How to Rick Roll your friends like a pro](#heading-how-to-rick-roll-your-friends-like-a-pro)
-    
-    * [Rendering the "original" page](#heading-rendering-the-original-page)
-        
-    * [Instrumenting the page (ie. redirect)](#heading-instrumenting-the-page-ie-redirect)
-        
-    * [The "You got rick rolled" page](#heading-the-you-got-rick-rolled-page)
-        
-    * [The URL shortener disguise](#heading-the-url-shortener-disguise)
-        
-    * [Avoiding SSRF attacks](#heading-avoiding-ssrf-attacks)
-        
-* [The deployment](#heading-the-deployment)
-    
-* [Conclusion](#heading-conclusion)
+- [What is RickRolling?](#what-is-rickrolling)
+- [My vision of a perfect rickroller](#my-vision-of-a-perfect-rickroller)
+- [The final result](#the-final-result)
+- [How to Rick Roll your friends like a pro](#how-to-rick-roll-your-friends-like-a-pro)
+  - [Rendering the "original" page](#rendering-the-original-page)
+  - [Instrumenting the page (ie. redirect)](#instrumenting-the-page-ie-redirect)
+  - [The "You got rick rolled" page](#the-you-got-rick-rolled-page)
+  - [The URL shortener disguise](#the-url-shortener-disguise)
+  - [Avoiding SSRF attacks](#avoiding-ssrf-attacks)
+- [The deployment](#the-deployment)
+- [Conclusion](#conclusion)
     
 
 *(TOC generated with* [*bitdowntoc*](https://derlin.github.io/bitdowntoc/) *using the Gitlab preset and the anchor prefix option set to* `heading-`*)*

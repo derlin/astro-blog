@@ -23,30 +23,18 @@ I've been dying to talk about them for a long time, so without further ado, let'
 
 The Twelve-Factor App principles:
 
-* [I Codebase](#heading-i-codebasehttps12factornetcodebase)
-    
-* [II. Dependencies](#heading-ii-dependencieshttps12factornetdependencies)
-    
-* [III. Config](#heading-iii-confighttps12factornetconfig)
-    
-* [IV. Backing services](#heading-iv-backing-serviceshttps12factornetbacking-services)
-    
-* [V. Build, release, run](#heading-v-build-release-runhttps12factornetbuild-release-run)
-    
-* [VI. Processes](#heading-vi-processeshttps12factornetprocesses)
-    
-* [VII. Port binding](#heading-vii-port-bindinghttps12factornetport-binding)
-    
-* [VIII. Concurrency](#heading-viii-concurrencyhttps12factornetconcurrency)
-    
-* [IX. Disposability](#heading-ix-disposabilityhttps12factornetdisposability)
-    
-* [X. Dev/prod parity](#heading-x-devprod-parityhttps12factornetdev-prod-parity)
-    
-* [XI. Logs](#heading-xi-logshttps12factornetlogs)
-    
-* [XII. Admin processes](#heading-xii-admin-processeshttps12factornetadmin-processes)
-    
+- [I Codebase](#i-codebase)
+- [II. Dependencies](#ii-dependencies)
+- [III. Config](#iii-config)
+- [IV. Backing services](#iv-backing-services)
+- [V. Build, release, run](#v-build-release-run)
+- [VI. Processes](#vi-processes)
+- [VII. Port binding](#vii-port-binding)
+- [VIII. Concurrency](#viii-concurrency)
+- [IX. Disposability](#ix-disposability)
+- [X. Dev/prod parity](#x-devprod-parity)
+- [XI. Logs](#xi-logs)
+- [XII. Admin processes](#xii-admin-processes)
 
 ---
 

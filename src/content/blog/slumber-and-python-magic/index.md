@@ -14,14 +14,14 @@ Slumber is one of those libraries you don't need, but can't live without once yo
 
 ---
 
-- [Introduction to slumber](#heading-introduction-to-slumber)
-   * [In a few words](#heading-in-a-few-words)
-   * [Slumber in action: an example with the dev.to API](#heading-slumber-in-action-an-example-with-the-devto-api)
-   * [A more formal explanation of the "translation"](#heading-a-more-formal-explanation-of-the-translation)
-- [Delving into the magic](#heading-delving-into-the-magic)
-   * [Theory first: dunder methods](#heading-theory-first-dunder-methods)
-   * [A simple implementation (&lt; 20 lines!)](#heading-a-simple-implementation-lt-20-lines)
-- [Conclusion](#heading-conclusion)
+- [Introduction to slumber](#introduction-to-slumber)
+  - [In a few words](#in-a-few-words)
+  - [Slumber in action: an example with the dev.to API](#slumber-in-action-an-example-with-the-devto-api)
+  - [A more formal explanation of the "translation"](#a-more-formal-explanation-of-the-translation)
+- [Delving into the magic](#delving-into-the-magic)
+  - [Theory first: dunder methods](#theory-first-dunder-methods)
+  - [A simple implementation (&lt; 20 lines!)](#a-simple-implementation--20-lines)
+- [Conclusion](#conclusion)
 
 ---
 

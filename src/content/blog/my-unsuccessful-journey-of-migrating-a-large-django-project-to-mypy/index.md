@@ -11,31 +11,19 @@ tags: ['python', 'django', 'type-checking', 'mypy']
 
 ---
 
-* [A brief history of type hints/checks in Python](#heading-a-brief-history-of-type-hintschecks-in-python)
-    
-* [The context](#heading-the-context)
-    
-* [The plan](#heading-the-plan)
-    
-    * [Setting up Mypy](#heading-setting-up-mypy)
-        
-    * [Ignoring old code: mypy-clean-slate](#heading-ignoring-old-code-mypy-clean-slate)
-        
-    * [Adding types](#heading-adding-types)
-        
-* [Some of the problems with Mypy](#heading-some-of-the-problems-with-mypy)
-    
-    * [Libraries without exposed pyi types (and other perks)](#heading-libraries-without-exposed-pyi-types-and-other-perks)
-        
-    * [TypedDict limitations](#heading-typeddict-limitations)
-        
-    * [Optionals and assert](#heading-optionals-and-assert)
-        
-    * [Mixin classes: protocols needed](#heading-mixin-classes-protocols-needed)
-        
-    * [Django Models - generics not supported](#heading-django-models-generics-not-supported)
-        
-* [Conclusion](#heading-conclusion)
+- [A brief history of type hints/checks in Python](#a-brief-history-of-type-hintschecks-in-python)
+- [The context](#the-context)
+- [The plan](#the-plan)
+    - [Setting up Mypy](#setting-up-mypy)
+    - [Ignoring old code: mypy-clean-slate](#ignoring-old-code-mypy-clean-slate)
+    - [Adding types](#adding-types)
+- [Some of the problems with Mypy](#some-of-the-problems-with-mypy)
+    - [Libraries without exposed pyi types (and other perks)](#libraries-without-exposed-pyi-types-and-other-perks)
+    - [TypedDict limitations](#typeddict-limitations)
+    - [Optionals and assert](#optionals-and-assert)
+    - [Mixin classes: protocols needed](#mixin-classes-protocols-needed)
+    - [Django Models - generics not supported](#django-models---generics-not-supported)
+- [Conclusion](#conclusion)
     
 
 *(TOC generated with* [*bitdowntoc*](https://derlin.github.io/bitdowntoc/) *using the Gitlab preset and the anchor prefix option set to* `heading-`*)*

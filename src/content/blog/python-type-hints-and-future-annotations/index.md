@@ -13,25 +13,16 @@ This made me dig into the future of type annotations, and what it means for libr
 
 ---
 
-* [The bug](#heading-the-bug)
-    
-* [A brief history of type hints](#heading-a-brief-history-of-type-hints)
-    
-    * [Basics of type hints](#heading-basics-of-type-hints)
-        
-* [Introducing PEP 563, or what lies behind future annotations](#heading-introducing-pep-563-or-what-lies-behind-future-annotations)
-    
-* [The explanation](#heading-the-explanation)
-    
-* [How to get the return type of a function after PEP 563?](#heading-how-to-get-the-return-type-of-a-function-after-pep-563)
-    
-    * [In Python 3.10 and newer](#heading-in-python-310-and-newer)
-        
-    * [In Python 3.9 and older](#heading-in-python-39-and-older)
-        
-* [A word of caution](#heading-a-word-of-caution)
-    
-* [Conclusion](#heading-conclusion)
+- [The bug](#the-bug)
+- [A brief history of type hints](#a-brief-history-of-type-hints)
+  - [Basics of type hints](#basics-of-type-hints)
+- [Introducing PEP 563, or what lies behind future annotations](#introducing-pep-563-or-what-lies-behind-future-annotations)
+- [The explanation](#the-explanation)
+- [How to get the return type of a function after PEP 563?](#how-to-get-the-return-type-of-a-function-after-pep-563)
+  - [In Python 3.10 and newer](#in-python-310-and-newer)
+  - [In Python 3.9 and older](#in-python-39-and-older)
+- [A word of caution](#a-word-of-caution)
+- [Conclusion](#conclusion)
     
 
 ---

@@ -13,20 +13,13 @@ I have been coding in Python for a long time, yet I am puzzled by how little I k
 
 **Content**
 
-* [A little story](#heading-a-little-story)
-    
-* [Exception chaining (and the magic of `__context__` )](#heading-exception-chaining-and-the-magic-of-context)
-    
-* [Bare except vs except Exception](#heading-bare-except-vs-except-exception)
-    
-* [Raising shorthands](#heading-raising-shorthands)
-    
-* [Annotating exceptions (3.11+)](#heading-annotating-exceptions-311)
-    
-* [What about `UserWarning`?](#heading-what-about-userwarning)
-    
-* [Bonus](#heading-bonus)
-    
+- [A little story](#a-little-story)
+- [Exception chaining (and the magic of `__context__` )](#exception-chaining-and-the-magic-of-__context__-)
+- [Bare except vs except Exception](#bare-except-vs-except-exception)
+- [Raising shorthands](#raising-shorthands)
+- [Annotating exceptions (3.11+)](#annotating-exceptions-311)
+- [What about `UserWarning`?](#what-about-userwarning)
+- [Bonus](#bonus)
 
 ---
 

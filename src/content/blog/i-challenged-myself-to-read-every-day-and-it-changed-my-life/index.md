@@ -13,18 +13,14 @@ I wanted to share this journey, and who knows, maybe inspire you to take a 🔥 
 
 ---
 
-* [The context](#heading-the-context)
-    
-* [My 5 tips to create long-lasting habits](#heading-my-5-tips-to-create-long-lasting-habits)
-    
-* [The terms of my reading challenge](#heading-the-terms-of-my-reading-challenge)
-    
-* [How is it going so far? Some statistics](#heading-how-is-it-going-so-far-some-statistics)
-    
-* [How this challenge changed my life](#heading-how-this-challenge-changed-my-life)
+- [The context](#the-context)
+- [My 5 tips to create long-lasting habits](#my-5-tips-to-create-long-lasting-habits)
+- [The terms of my reading challenge](#the-terms-of-my-reading-challenge)
+- [How is it going so far? Some statistics](#how-is-it-going-so-far-some-statistics)
+- [How this challenge changed my life](#how-this-challenge-changed-my-life)
     
 
-<sub>🔖 I created this Table of Contents using </sub> [<sub>BitDownToc</sub>](https://derlin.github.io/bitdowntoc/) <sub>(GitLab preset, anchor prefix set to </sub> `<sub>heading-</sub>`<sub>). If you are curious, read my article: </sub> [<sub>Finally a clean and easy way to add Table of Contents to dev.to articles 🤩</sub>](https://blog.derlin.ch/add-a-table-of-contents-to-devto-articles)
+🔖 I created this Table of Contents using [BitDownToc](https://derlin.github.io/bitdowntoc/). If you are curious, read my article: [Finally a clean and easy way to add Table of Contents to dev.to articles 🤩](https://blog.derlin.ch/add-a-table-of-contents-to-devto-articles)
 
 ---
 

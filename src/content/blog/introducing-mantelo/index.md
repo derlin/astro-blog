@@ -17,19 +17,13 @@ Born from the frustration of encountering incomplete support in existing librari
 
 ---
 
-* [The motivation behind mantelo](#heading-the-motivation-behind-mantelo)
-    
-* [Getting started with mantelo](#heading-getting-started-with-mantelo)
-    
-    * [**🏁** Installing](#heading-installing)
-        
-    * [**🔐** Authenticating](#heading-authenticating)
-        
-    * [📞 Making calls](#heading-making-calls)
-        
-* [The best library out there, really?](#heading-the-best-library-out-there-really)
-    
-* [Mantelo needs YOU](#heading-mantelo-needs-you)
+- [The motivation behind mantelo](#the-motivation-behind-mantelo)
+- [Getting started with mantelo](#getting-started-with-mantelo)
+    - [**🏁** Installing](#-installing)
+    - [**🔐** Authenticating](#-authenticating)
+    - [📞 Making calls](#-making-calls)
+- [The best library out there, really?](#the-best-library-out-there-really)
+- [Mantelo needs YOU](#mantelo-needs-you)
     
 
 ---

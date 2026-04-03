@@ -17,15 +17,11 @@ Well… not quite. Cloudflare is a great tool, but to truly take advantage of it
 
 In this article:
 
-* [Cloudflare Cache Statuses](#heading-cloudflare-cache-statuses)
-    
-* [What is a “resource”](#heading-what-is-a-resource)
-    
-* [Which resources are eligible for cache](#heading-which-resources-are-eligible-for-cache)
-    
-* [Which eligible resources are cached](#heading-which-eligible-resources-are-cached)
-    
-* [How to extend cached resources to HTML (and others)](#heading-how-to-extend-cached-resources-to-html-and-others)
+- [Cloudflare Cache Statuses](#cloudflare-cache-statuses)
+- [What is a “resource”](#what-is-a-resource)
+- [Which resources are eligible for cache](#which-resources-are-eligible-for-cache)
+- [Which eligible resources are cached](#which-eligible-resources-are-cached)
+- [How to extend cached resources to HTML (and others)](#how-to-extend-cached-resources-to-html-and-others)
     
 
 *TOC created using* [*https://bitdowntoc.derlin.ch*](https://bitdowntoc.derlin.ch)

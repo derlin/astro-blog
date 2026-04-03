@@ -20,18 +20,12 @@ To better understand what it means, and why it is so cool, let's go through the 
 
 In this part:
 
-* [Function types](#heading-function-types)
-    
-    * [Instantiating function types](#heading-instantiating-function-types)
-        
-    * [Invoking a function type](#heading-invoking-a-function-type)
-        
-* [Higher-order functions](#heading-higher-order-functions)
-    
-* [Bonus: function types under the hood](#heading-bonus-function-types-under-the-hood)
-    
-* [Quiz time](#heading-quizz-time)
-    
+- [Function types](#function-types)
+  - [Instantiating function types](#instantiating-function-types)
+  - [Invoking a function type](#invoking-a-function-type)
+- [Higher-order functions](#higher-order-functions)
+- [Bonus: function types under the hood](#bonus-function-types-under-the-hood)
+- [Quiz time](#quiz-time)
 
 <sub>🔖 I created this Table of Contents using </sub> [<sub>BitDownToc</sub>](https://derlin.github.io/bitdowntoc/)<sub>.</sub>
 

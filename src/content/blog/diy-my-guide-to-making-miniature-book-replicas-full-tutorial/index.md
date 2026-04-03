@@ -19,41 +19,23 @@ This is the final result of this tutorial. The book is 31×20 mm.
 
 Table of contents:
 
-* [Material](#heading-material)
-    
-* [1\. Design the covers and the first page](#heading-design-the-covers-and-the-first-page)
-    
-* [2\. Create the cover](#heading-create-the-cover)
-    
-* [3\. Cut the pages](#heading-cut-the-pages)
-    
-* [5\. Assemble your book](#heading-assemble-your-book)
-    
-* [Alternative: use smaller pages for a professional finish](#heading-alternative-use-smaller-pages-for-a-professional-finish)
-    
-* [Going further](#heading-going-further)
-    
+- [Material](#material)
+- [Alternative: use smaller pages for a professional finish](#alternative-use-smaller-pages-for-a-professional-finish)
+- [Going further](#going-further)
 
 ---
 
 ## Material
 
 * **scissors + cutter + ruler**
-    
 * (90 to 100 g/m2 paper for the covers, with good color printing results if you have)
-    
 * regular **80 g/m2 paper** for the pages → I use regular A4 sheets
-    
 * **thick paper** or thin cardboard → I use blank postcard paper - A6 at 200 g/m2
-    
 * “normal” **glue** → I use rubber cement glue for best results, see [Marabu Fixogum](https://www.marabu-creative.com/en/products/creative/marabu-fixogum-rubber-cement-1-29010017000/)
-    
 * **PVA glue** → this is the glue used for book-binding, and it really makes a difference
-    
 * a printer + a design software (Canva is free)
-    
 
-1. ## Design the covers and the first page
+## 1. Design the covers and the first page
     
 
 👉 ✨✨✨ [Design for the tutorial (Canva)](https://www.canva.com/design/DAGjeTVmn2Y/rMcUYVZWV-_Iq65ZhqPOcg/edit?utm_content=DAGjeTVmn2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) ✨✨✨ 👈
@@ -70,7 +52,7 @@ To spare paper, I cram as many covers as possible on one sheet, and I always wri
 
 For the first page of the book, I try to find a nice symbol - or the actual first page of the book if I find it. I add gray dotted borders to help with the cutting. Remember to put the first pages on another sheet if you use different paper for covers and pages!
 
-2. ## Create the cover
+## 2. Create the cover
     
 
 After printing the covers, **cut each rectangle and start folding**. Using a ruler to fold the cover can help make it straight! Just put the ruler at the back of the cover, use a light to see through, and once the ruler is properly positioned, fold the paper to leave a mark. Remove the ruler and finish the fold.
@@ -83,7 +65,7 @@ Take your thick paper and **cut rectangles the dimensions of the front cover** *
 
 You now have a mini-book cover!
 
-3. ## Cut the pages
+## 3. Cut the pages
     
 
 Now, you have to cut paper. Lots of it! Depending on what you have at home, you may design a different strategy, but I happen to have a Cricut (20$). My process is:
@@ -103,7 +85,7 @@ Cut the first page with a cutter to match the dimensions of the other blank page
 
 Note that I used to do the same with a cutter. With a cutter, stacking two sheets doesn’t work well, the process is slow, and the result is less precise (I tried stacking all the pages and cutting them all at once, but it miserably failed). The Cricut process is still slow, but it is the one yielding the best results.
 
-5. ## Assemble your book
+## 4. Assemble your book
     
 
 Take your stack of pages (with the first page at the top) and add PVA glue to the spine. Position it on your flat cover, and let it dry (keep the pages vertical, don’t touch them!).

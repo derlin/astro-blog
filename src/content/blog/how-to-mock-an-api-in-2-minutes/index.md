@@ -14,20 +14,13 @@ I don't need to enumerate all the situations in which you would need to mock an 
 
 ---
 
-* [The docker-compose](#heading-the-docker-compose)
-    
-* [Defining the expectations (spec.json)](#heading-defining-the-expectations-specjson)
-    
-    * [The most basic expectation](#heading-the-most-basic-expectation)
-        
-    * [Using templates](#heading-using-templates)
-        
-    * [Importing the request spec from OpenAPI](#heading-importing-the-request-spec-from-openapi)
-        
-    * [Going further](#heading-going-further)
-        
-* [Conclusion](#heading-conclusion)
-    
+  - [The docker-compose](#the-docker-compose)
+  - [Defining the expectations (spec.json)](#defining-the-expectations-specjson)
+    - [The most basic expectation](#the-most-basic-expectation)
+    - [Using templates](#using-templates)
+    - [Importing the request spec from OpenAPI](#importing-the-request-spec-from-openapi)
+    - [Going further](#going-further)
+  - [Conclusion](#conclusion)
 
 ---
 

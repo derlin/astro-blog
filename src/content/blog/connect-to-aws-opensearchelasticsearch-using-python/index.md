@@ -9,14 +9,11 @@ tags: ['python', 'aws', 'aws-opensearch']
 
 Connecting to an OpenSearch (ES) service running in AWS using Python is painful. Most examples I find online either don't work or are outdated, leaving me constantly fixing the same issues. To save time and frustration, here’s a collection of working code snippets, up-to-date as of December 2024.
 
-* [Connect using the opensearch-py library (OpenSearch + ElasticSearch)](#heading-connect-using-the-opensearch-py-library-opensearch-elasticsearch)
-    
-* [Connect using the elasticsearch library (ElasticSearch only)](#heading-connect-using-the-elasticsearch-library-elasticsearch-only)
-    
-    * [elasticsearch &gt;= 8](#heading-elasticsearch-gt-8)
-        
-    * [elasticsearch &lt; 8](#heading-elasticsearch-lt-8)
-        
+- [Connect using the opensearch-py library (OpenSearch + ElasticSearch)](#connect-using-the-opensearch-py-library-opensearch--elasticsearch)
+- [Connect using the elasticsearch library (ElasticSearch only)](#connect-using-the-elasticsearch-library-elasticsearch-only)
+   * [elasticsearch &gt;= 8](#elasticsearch--8)
+   * [elasticsearch &lt; 8](#elasticsearch--8-1)
+
 
 ## Connect using the opensearch-py library (OpenSearch + ElasticSearch)
 

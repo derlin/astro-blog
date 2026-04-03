@@ -26,14 +26,10 @@ You got me, I am a big fan of Kotlin. Some of the (many) things I love about it 
 
 Since I won't be able to cover everything offered by the language, let's restrict this (first?) Series to Kotlin functions, starting with some cool stuff about them:
 
-* [A quick reminder (you can skip it)](#heading-a-quick-reminder-you-can-skip-it)
-    
-* [Optional named arguments](#heading-optional-named-arguments)
-    
-* [Single expression functions](#heading-single-expression-functions)
-    
-* [Local functions](#heading-local-functions)
-    
+- [A quick reminder (you can skip it)](#a-quick-reminder-you-can-skip-it)
+- [Optional named arguments](#optional-named-arguments)
+- [Single expression functions](#single-expression-functions)
+- [Local functions](#local-functions)
 
 ---
 

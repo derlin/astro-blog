@@ -16,15 +16,11 @@ I recently had to test the new [ExternalSecrets operator](https://external-secre
 
 ---
 
-* [About Vault and ExternalSecrets](#heading-about-vault-and-externalsecrets)
-    
-* [Installing Vault and ExternalSecrets](#heading-installing-vault-and-externalsecrets)
-    
-    * [Prerequisites](#heading-prerequisites)
-        
-    * [Procedure](#heading-procedure)
-        
-* [Accessing the vault](#heading-accessing-the-vault)
+- [About Vault and ExternalSecrets](#about-vault-and-externalsecrets)
+- [Installing Vault and ExternalSecrets](#installing-vault-and-externalsecrets)
+  - [Prerequisites](#prerequisites)
+  - [Procedure](#procedure)
+- [Accessing the vault](#accessing-the-vault)
     
 
 ---

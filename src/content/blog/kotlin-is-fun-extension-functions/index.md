@@ -18,21 +18,15 @@ This is an awesome feature and will shed light on the Kotlin standard library. R
 
 In this part:
 
-* [The basics](#heading-the-basics)
-    
-* [They are still functions](#heading-they-are-still-functions)
-    
-* [A compile-time sugarcoating](#heading-a-compile-time-sugarcoating)
-    
-* [The magic of Kotlin's standard library explained](#heading-the-magic-of-kotlins-standard-library-explained)
-    
+- [The basics](#the-basics)
+- [They are still functions](#they-are-still-functions)
+- [A compile-time sugarcoating](#a-compile-time-sugarcoating)
+- [The magic of Kotlin's standard library explained](#the-magic-of-kotlins-standard-library-explained)
 
 <sub>🔖 I created this Table of Contents using </sub> [**<sub>BitDownToc</sub>**](https://derlin.github.io/bitdowntoc/)<sub>.</sub>
 
 Previous articles in the [Series](https://blog.derlin.ch/series/kotlin-is-fun):
-
-1. [Some cool stuff about functions](https://blog.derlin.ch/kotlin-is-fun-some-cool-stuff-about-kotlin-functions)
-    
+1. [Some cool stuff about functions](https://blog.derlin.ch/kotlin-is-fun-some-cool-stuff-about-kotlin-functions) 
 2. [**Kotlin is** `fun` **- Function types, lambdas, and higher-order functions**](https://blog.derlin.ch/kotlin-is-fun-function-types-lambdas-and-higher-order-functions)
     
 

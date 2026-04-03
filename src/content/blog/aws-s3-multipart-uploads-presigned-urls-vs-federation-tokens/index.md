@@ -11,17 +11,21 @@ I had a very interesting use case lately: being able to upload a file to S3 with
 
 ---
 
-* [The use case](#the-use-case)
-* [Attempt 1: REST + presigned URLs 😕](#attempt-1-rest-presigned-urls-)
-    * [A simple PUT with a presigned URL](#a-simple-put-with-a-presigned-url) 
-    * [Multipart uploads with presigned URLs](#multipart-uploads-with-presigned-urls)   
-    * [The implementation](#the-implementation)
-    * [The problems](#the-problems)     
-* [Attempt 2: temporary credentials 😃](#attempt-2-temporary-credentials-)
-    * [About federation tokens](#about-federation-tokens)     
-    * [(Multipart) uploads with federation tokens](#multipart-uploads-with-federation-tokens)    
-    * [Are federation tokens safe?](#are-federation-tokens-safe)   
-* [Conclusion](#conclusion)
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [The use case](#the-use-case)
+- [Attempt 1: REST + presigned URLs 😕](#attempt-1-rest--presigned-urls-)
+   * [A simple PUT with a presigned URL](#a-simple-put-with-a-presigned-url)
+   * [Multipart uploads with presigned URLs](#multipart-uploads-with-presigned-urls)
+   * [The implementation](#the-implementation)
+   * [The problems](#the-problems)
+- [Attempt 2: temporary credentials 😃](#attempt-2-temporary-credentials-)
+   * [About federation tokens](#about-federation-tokens)
+   * [(Multipart) uploads with federation tokens](#multipart-uploads-with-federation-tokens)
+   * [Are federation tokens safe?](#are-federation-tokens-safe)
+- [Conclusion](#conclusion)
+
+<!-- TOC end -->
 
 *(TOC generated with* [***bitdowntoc***](https://derlin.github.io/bitdowntoc/) *using the Gitlab preset and the anchor prefix option set to* `heading-`*)*
 
