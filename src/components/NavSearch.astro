@@ -1,0 +1,201 @@
+---
+---
+
+<div class="search-wrapper" id="search-wrapper">
+	<button class="search-toggle" id="search-toggle" aria-label="Search" aria-expanded="false">
+		<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+			<circle cx="8.5" cy="8.5" r="5.5"/>
+			<line x1="13" y1="13" x2="18" y2="18"/>
+		</svg>
+	</button>
+
+	<div class="search-panel" id="search-panel">
+		<input
+			id="search-input"
+			type="search"
+			placeholder="Search…"
+			autocomplete="off"
+			spellcheck="false"
+		/>
+		<ul id="search-results" role="listbox" hidden></ul>
+	</div>
+</div>
+
+<style is:global>
+	.search-wrapper {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.search-toggle {
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: var(--text-muted);
+		display: flex;
+		align-items: center;
+		padding: 4px;
+		transition: color 0.15s;
+	}
+	.search-toggle:hover,
+	.search-wrapper.open .search-toggle {
+		color: var(--text);
+	}
+	.search-panel {
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.search-wrapper.open .search-panel {
+		display: flex;
+	}
+	#search-input {
+		width: 220px;
+		background: var(--bg-surface);
+		border: 1px solid var(--border);
+		border-radius: 6px;
+		color: var(--text);
+		font-size: 0.875rem;
+		padding: 0.35rem 0.65rem;
+		outline: none;
+	}
+	#search-input:focus {
+		border-color: var(--accent);
+	}
+	#search-input::-webkit-search-cancel-button {
+		display: none;
+	}
+	#search-results {
+		position: absolute;
+		top: calc(100% + 6px);
+		right: 0;
+		width: 360px;
+		background: var(--bg-surface);
+		border: 1px solid var(--border);
+		border-radius: 8px;
+		list-style: none;
+		margin: 0;
+		padding: 0.5rem 0;
+		max-height: 420px;
+		overflow-y: auto;
+		box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+		z-index: 200;
+	}
+	#search-results li a {
+		display: block;
+		padding: 0.6rem 1rem;
+		text-decoration: none;
+		color: var(--text);
+		font-size: 0.875rem;
+	}
+	#search-results li a:hover,
+	#search-results li a:focus {
+		background: var(--border);
+		text-decoration: none;
+		outline: none;
+	}
+	#search-results .result-title {
+		font-weight: 600;
+		display: block;
+		margin-bottom: 0.15rem;
+	}
+	#search-results .result-excerpt {
+		color: var(--text-muted);
+		font-size: 0.8rem;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+	#search-results .result-excerpt mark {
+		background: none;
+		color: var(--accent);
+		font-weight: 600;
+	}
+	#search-results .no-results {
+		padding: 0.6rem 1rem;
+		color: var(--text-muted);
+		font-size: 0.875rem;
+	}
+</style>
+
+<script>
+(function () {
+		const wrapper = document.getElementById('search-wrapper');
+		const toggle = document.getElementById('search-toggle');
+		const panel = document.getElementById('search-panel');
+		const input = document.getElementById('search-input');
+		const results = document.getElementById('search-results');
+
+		let pagefind: any = null;
+
+		async function loadPagefind() {
+			if (pagefind) return;
+			try {
+				const src = '/pagefind/pagefind.js';
+			pagefind = await import(/* @vite-ignore */ src);
+				await pagefind.init();
+			} catch (e) {
+				console.warn('Pagefind not available (run npm run build first)', e);
+			}
+		}
+
+		function open() {
+			wrapper.classList.add('open');
+			toggle.setAttribute('aria-expanded', 'true');
+			input.focus();
+			loadPagefind();
+		}
+
+		function close() {
+			results.hidden = true;
+			wrapper.classList.remove('open');
+			toggle.setAttribute('aria-expanded', 'false');
+			input.value = '';
+		}
+
+		toggle.addEventListener('click', () => {
+			wrapper.classList.contains('open') ? close() : open();
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') close();
+		});
+
+		document.addEventListener('click', (e) => {
+			if (!wrapper.contains(e.target)) close();
+		});
+
+		let debounce: ReturnType<typeof setTimeout>;
+		input.addEventListener('input', () => {
+			clearTimeout(debounce);
+			debounce = setTimeout(async () => {
+				const query = input.value.trim();
+				if (!query || !pagefind) {
+					results.hidden = true;
+					return;
+				}
+				const search = await pagefind.search(query);
+				const data = await Promise.all(search.results.slice(0, 8).map((r) => r.data()));
+				results.innerHTML = '';
+				if (!data.length) {
+					results.innerHTML = '<li class="no-results">No results found.</li>';
+				} else {
+					for (const item of data) {
+						const li = document.createElement('li');
+						li.innerHTML = `<a href="${item.url}">
+							<span class="result-title">${item.meta?.title ?? 'Untitled'}</span>
+							<span class="result-excerpt">${item.excerpt}</span>
+						</a>`;
+						results.appendChild(li);
+					}
+				}
+				results.hidden = false;
+			}, 200);
+		});
+})();
+</script>

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(mv /Users/lucy.linder/tmp/blog/planetary-parallax/* /Users/lucy.linder/tmp/blog/planetary-parallax/.* /Users/lucy.linder/tmp/blog/)",
+      "Bash(rm -rf /Users/lucy.linder/tmp/blog/planetary-parallax)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(python3 migrate.py)",
+      "Bash(curl -s http://localhost:4321/blog/)",
+      "Bash(curl -s http://localhost:4321/pagefind/pagefind.js)",
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(grep -r \"ON THIS PAGE\\\\|toc\\\\|heading\" /Users/lucy.linder/tmp/blog/dist/ --include=*.html -l)",
+      "Bash(grep -o \"ON THIS PAGE.\\\\{0,2000\\\\}\" /Users/lucy.linder/tmp/blog/dist/blog/kotlin-is-fun-function-types-lambdas-and-higher-order-functions/index.html)",
+      "Bash(grep -o \"toc-sidebar.\\\\{0,500\\\\}\" /Users/lucy.linder/tmp/blog/dist/blog/kotlin-is-fun-function-types-lambdas-and-higher-order-functions/index.html)",
+      "Bash(python3:*)",
+      "Bash(/dev/null grep:*)"
+    ]
+  }
+}
