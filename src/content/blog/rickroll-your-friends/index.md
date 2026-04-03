@@ -63,11 +63,11 @@ My Rickroller implementation is a simple [Python Flask](http://flask.palletsproj
 
 Here is the view to create a rickroll (view 1):
 
-[![preview](./wx03wal2ruyr9dv1tj88.png)](https://tinyurl.eu.aldryn.io){.img-left}
+[![preview](./wx03wal2ruyr9dv1tj88.png)](https://tinyurl.eu.aldryn.io)
 
 Try to enter a URL, then interact with the fake page. You should end up on:
 
-![rickroll!](./btmt91u9762pxh06uavy.png){.img-left}
+![rickroll!](./btmt91u9762pxh06uavy.png)
 
 Cherries on the cake, the social preview from the original site shows up when you share a phony link. Here is the result of sharing the malicious https://dev.to URL on Telegram:
 
@@ -203,7 +203,7 @@ Even worse, the `&autoplay=1` parameter on YouTube embeds is buggy as hell: the 
 
 But wait, if a video doesn't autoplay, a GIF definitely will! If we can't have sound anyway, a good-quality GIF is as good as any. I thus ended up using a [giphy](https://giphy.com) Rick Roll GIF embedded into a very simple web page. It worked perfectly for a while, until the GIF disappeared from giphy, leaving in its place:
 
-![oops giphy](./ox2pzxnrq9gec4sygo5p.png){.img-left}
+![oops giphy](./ox2pzxnrq9gec4sygo5p.png)
 
 To avoid another abrupt disappearance, I downloaded a gif from [tenor.com](http://tenor.com) that is now served directly by my server. This is what you see in the final result: [http://rroll.derlin.ch/gotcha](http://rroll.derlin.ch/gotcha)
 

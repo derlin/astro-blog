@@ -10,7 +10,7 @@ heroImage: './-E2E5EObv.png'
 tags: ['bitbucket', 'markdown', 'tips', 'developer', 'opensource']
 ---
 
-[![favicon](./rO_0AJdS7.png)](https://derlin.github.io/bitdowntoc/){.img-left}
+[![favicon](./rO_0AJdS7.png)](https://derlin.github.io/bitdowntoc/)
 
 ## Kezaco ?
 

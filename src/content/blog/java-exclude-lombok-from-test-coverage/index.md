@@ -53,9 +53,9 @@ class ExampleTest {
 
 Using JaCoCo, the reported coverage is however **as low as 33%** !
 
-![Total Coverage](./w7crC9OaDw.png){.img-left}
+![Total Coverage](./w7crC9OaDw.png)
 
-![Low Coverage of Example class](./SDk8ZXtbIS.png){.img-left}
+![Low Coverage of Example class](./SDk8ZXtbIS.png)
 
 ## Solution
 
@@ -77,4 +77,4 @@ And put it either at the root of your repo, or in the `src/` folder. The only re
 
 And there you have it !
 
-![Real coverage](./VkVJw8C88.png){.img-left}
+![Real coverage](./VkVJw8C88.png)

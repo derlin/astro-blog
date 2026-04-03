@@ -35,7 +35,7 @@ This should work at least on Mac, preferably on Chrome, but another browser woul
 
 The [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/notification) is what is used under the hood by all sites showing notifications. You should be familiar with the all-too-annoying prompt:
 
-![notification permission prompt](./m-vW6d_oYY.png){.img-left}
+![notification permission prompt](./m-vW6d_oYY.png)
 
 The API is simple enough. You first ask for permission to show notifications (triggering the prompt above the first time), then just create a `Notification` object:
 

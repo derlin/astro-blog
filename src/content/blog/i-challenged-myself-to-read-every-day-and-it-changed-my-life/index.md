@@ -76,11 +76,11 @@ My reading time has remained consistent over the years 😊, but I tend to use m
 
 I read an average of **20 hours** per month, with high peaks during the summer break:
 
-![Time read per month](./mqtpzcmep8bnid3awspd.png){.img-left}
+![Time read per month](./mqtpzcmep8bnid3awspd.png)
 
 Against all odds, I tend to read more consistently during the week, as I have my routine in place (I go to bed early and use more public transport):
 
-![Time read per weekdays](./1yhyse1ka2fmi503fbsb.png){.img-left}
+![Time read per weekdays](./1yhyse1ka2fmi503fbsb.png)
 
 See more at [https://derlin.github.io/reading-stats/](https://derlin.github.io/reading-stats/)
 

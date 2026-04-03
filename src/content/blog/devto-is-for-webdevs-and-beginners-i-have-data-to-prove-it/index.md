@@ -145,13 +145,13 @@ Let's plot the number of articles (count), reactions and comments for those 100 
 
 **IMPORTANT**: remember that an article can have up to four tags, so a very popular article can boost the scores of multiple tags!
 
-![Distribution of count/reactions/comments on the top 100 tags - normalized](./hs1c1uiqepfbk8hl7hqi.png){.img-left}
+![Distribution of count/reactions/comments on the top 100 tags - normalized](./hs1c1uiqepfbk8hl7hqi.png)
 
 ([interactive version](https://derlin.github.io/dev.to-is-for-web-devs-and-beginners/plot_tags_normalized.html) and [interactive version without normalization](https://derlin.github.io/dev.to-is-for-web-devs-and-beginners/plot_tags.html))
 
 We can see that the first few tags account for most of the articles. The reactions and comments follow roughly the same trend, with high peaks and drops. Let's zoom in on the first 30 tags:
 
-![Distribution of count/reactions/comments on the top 100 tags - normalized and zoomed on the first 30](./dqipbiziuarhh3ng9c2v.png){.img-left}
+![Distribution of count/reactions/comments on the top 100 tags - normalized and zoomed on the first 30](./dqipbiziuarhh3ng9c2v.png)
 
 Taking only the first 4 tags, we account for 30% of all the articles of the top 100 tags: `javascript` (10.76%), `webdev` (8.85%), `beginners` (6.93%), `tutorial` (4.65%) → 31.10%!
 
@@ -203,7 +203,7 @@ See the difference between the 75% quartile in the max? There are again a small 
 
 Here are the top 25 tags (normalized to show percentages across the whole dataset):
 
-![Most popular 25 tags on the top 10,000 articles of all time, normalized](./x9mwwe1laf0dwm7hduov.png){.img-left}
+![Most popular 25 tags on the top 10,000 articles of all time, normalized](./x9mwwe1laf0dwm7hduov.png)
 
 ([interactive version](https://derlin.github.io/dev.to-is-for-web-devs-and-beginners/plot_articles_normalized.html) and [interactive version without normalization](https://derlin.github.io/dev.to-is-for-web-devs-and-beginners/plot_articles.html))
 
@@ -215,17 +215,17 @@ So instead, let's **count articles only once**. That is, if an article has multi
 
 Using a normalized cumulative sum, this is what we get for the **number of articles**:
 
-![cumsum number of articles with tag (normalized, out of 10K top articles)](./b97e5mujp2jjegm79jyu.png){.img-left}
+![cumsum number of articles with tag (normalized, out of 10K top articles)](./b97e5mujp2jjegm79jyu.png)
 
 `webdev` and `javascript` cover 62% of the articles (6K out of 10K)! Adding only `beginners`, `productivity`, and `career` cover 80%.
 
 The same trend can be seen for **reactions** (66% for `webdev` and `javascript`, 84% adding the 3 other tags):
 
-![cumsum reactions for articles with tag (normalized, out of 10K top articles](./vkcus06n09irocdn6ut3.png){.img-left}
+![cumsum reactions for articles with tag (normalized, out of 10K top articles](./vkcus06n09irocdn6ut3.png)
 
 For **comments**, we just have the `welcome` tag that inserts itself in the 3rd place. The rest of the top 6 is left mostly unchanged:
 
-![cumsum number of comments with tag (normalized, out of 10K top articles](./eiha9ox36fn8nau777s8.png){.img-left}
+![cumsum number of comments with tag (normalized, out of 10K top articles](./eiha9ox36fn8nau777s8.png)
 
 ### bonus: Top 5,000 articles of the last month
 
@@ -247,7 +247,7 @@ to get the articles in the last month. {%endcollapsible %}
 
 Here are the top 25 tags that appear in this new dataset (out of 1,487):
 
-![Top tags of the months - counting articles once](./fwtwzuhu6e88e5whc6xs.png){.img-left}
+![Top tags of the months - counting articles once](./fwtwzuhu6e88e5whc6xs.png)
 
 (Tags of the top 5K articles between Oct, 16 and Nov, 16)
 
@@ -271,7 +271,7 @@ Just after, we find tags like `productivity` and `career`, which also take a big
 
 Looking at other successful tags, we find mostly webdev-related tags (`react`, `vscode`, etc), beginner-friendly tags (`codenewbie`, `tutorial`, etc), and generic tags (`programming`, `opensource`, etc).
 
-![Tag cloud based on the top articles](./idd1puo3uqwqwxteazgw.png){.img-left}
+![Tag cloud based on the top articles](./idd1puo3uqwqwxteazgw.png)
 
 *(tag cloud based on the tags appearing in the top 10K articles on dev.to)*
 

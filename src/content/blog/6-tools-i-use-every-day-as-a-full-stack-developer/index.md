@@ -15,7 +15,7 @@ I know there are lots of posts about "necessary" tools that "you must use" as a 
 
 Maccy "*does one job - keep your copy history at hand. Period.*" Lightweight and open source, it stores whatever you copy. Need an old entry? Press `⌘+y` (or whatever shortcut you want) to show the menu, either search or use arrows to select what you need, press enter and it is back in your clipboard.
 
-![maccy overview](./i8Qi91DHI.png){.img-left}
+![maccy overview](./i8Qi91DHI.png)
 
 ## 2\. [lazygit](https://github.com/jesseduffield/lazygit) - Git UI in your terminal
 
@@ -23,7 +23,7 @@ Instead of trying to learn how to use the git UI in IntelliJ, only to start agai
 
 Lazygit comes with panels and shortcuts, which are all pretty straightforward and customizable. Once you get the gist, it becomes really fast to do whatever in git.
 
-![lazygit overview](./rKPg6Ymwz.gif){.img-left}
+![lazygit overview](./rKPg6Ymwz.gif)
 
 Press `a` to stage all files, `c` to commit, `C` to commit using the usual git prompt, `space` to stage/unstage the selected file, etc.
 
@@ -31,7 +31,7 @@ If a shortcut is missing for an action you do often, you can add one easily by c
 
 ## 3\. Rainbow Brackets
 
-![Image description](./PqgEgfoEH.png){.img-left}
+![Image description](./PqgEgfoEH.png)
 
 So simple, yet so helpful. Rainbow brackets colors matching parentheses, brackets, etc. It is hard to look at code without this feature once you get accustomed to it.
 
@@ -71,7 +71,7 @@ And other nice ones:
 
 Here is what it looks like with my theme and settings (see how easy it is to find the dev.to tab):
 
-![Vivaldi with tabs on the right](./ZGy7bJgTj.png){.img-left}
+![Vivaldi with tabs on the right](./ZGy7bJgTj.png)
 
 Note that Vivaldi is a bit slower than Chrome, but I find it a good bargain given the time I spare looking for the right tab. You can also improve the speed by disabling some of the features. Let me know in the comments if you are interested in knowing more.
 
@@ -79,7 +79,7 @@ Note that Vivaldi is a bit slower than Chrome, but I find it a good bargain give
 
 I am not a particularly organized person: when I take notes, I don't want to think of tags, knowledge graphs, or databases. Simple markdown files and a basic search interface are all I ask for.
 
-![Typora overview](./v7Xgc5tN4.gif){.img-left}
+![Typora overview](./v7Xgc5tN4.gif)
 
 [Typora](https://typora.io) is a paid markdown editor, yet its fair price ($ 14.99 for a lifetime license usable on three devices) is totally worth it.
 
@@ -95,7 +95,7 @@ It is easy, lightweight, and works well. Even better, my notes are just text fil
 
 ## 6\. [KeePassXC](https://keepassxc.org)
 
-![KeePassXC](./F3y680ukT.png){.img-left}
+![KeePassXC](./F3y680ukT.png)
 
 KeePassXC is an open-source cross-platform password manager that works completely offline.
 

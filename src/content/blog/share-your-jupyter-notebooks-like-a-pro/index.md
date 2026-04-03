@@ -193,7 +193,7 @@ df.style
   .highlight_max(axis=0) # highlight the max value on each line
 ```
 
-![pandas DataFrame with column-wise highlighted maximum value.](./1*taE7cBuJHZv_kkKQh0czdQ.png){.img-left}
+![pandas DataFrame with column-wise highlighted maximum value.](./1*taE7cBuJHZv_kkKQh0czdQ.png)
 
 To learn more and play with styles, have a look at [Essential Techniques to Style Pandas DataFrames](https://www.kaggle.com/code/iamleonie/essential-techniques-to-style-pandas-dataframes) on Kaggle.
 

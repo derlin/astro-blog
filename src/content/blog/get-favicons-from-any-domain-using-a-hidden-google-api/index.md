@@ -30,15 +30,15 @@ In case the right size is not found, it will return the default one, usually 16x
 
 https://cdn.hashnode.com/res/hashnode/image/upload/v1671094570561/PC1z81oNA.png
 
-![128x128](https://www.google.com/s2/favicons?domain=dev.to&sz=128){.img-left}
+![128x128](https://www.google.com/s2/favicons?domain=dev.to&sz=128)
 
 https://cdn.hashnode.com/res/hashnode/image/upload/v1671094571634/-T-YhxOp1.png (nothing found for 512x512, so returns a 16x16 PNG)
 
-![16x16 fallback](https://www.google.com/s2/favicons?domain=dev.to&sz=512){.img-left}
+![16x16 fallback](https://www.google.com/s2/favicons?domain=dev.to&sz=512)
 
 https://cdn.hashnode.com/res/hashnode/image/upload/v1671094572625/LOC9cNPMk.png (yep, sometimes the quality is far from optimal)
 
-![stackoverflow 128x128](https://www.google.com/s2/favicons?domain=stackoverflow.com&sz=128){.img-left}
+![stackoverflow 128x128](https://www.google.com/s2/favicons?domain=stackoverflow.com&sz=128)
 
 * * *
 

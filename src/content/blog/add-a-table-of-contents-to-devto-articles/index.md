@@ -11,7 +11,7 @@ Contrary to other platforms, dev.to doesn't have built-in support for Table of C
 
 I am thus proud to announce**✨✨** [**BitDownToc**](https://github.com/derlin/bitdowntoc) **now supports dev.to ✨✨**!
 
-[![BitDownToc](./og-bitdowntoc.png)](https://derlin.github.io/bitdowntoc/){.img-left}
+[![BitDownToc](./og-bitdowntoc.png)](https://derlin.github.io/bitdowntoc/)
 
 <sub>Also available as CLI and now with native executables! Check out the repo on </sub> [<sub>GitHub</sub>](https://github.com/derlin/bitdowntoc) <sub>for more info and leave a ⭐.</sub>
 

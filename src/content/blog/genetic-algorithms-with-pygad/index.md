@@ -109,7 +109,7 @@ The `crossover_type` defines how children are generated from the selected parent
 
 The breeding works by selecting an index randomly (*crossover point*). All genes to the right of that point are then swapped between the two parent chromosomes. This results in two offspring, each carrying some genetic information from both parents.
 
-![OnePointCrossover](./BuOZBK0F8.jpeg){.img-left}
+![OnePointCrossover](./BuOZBK0F8.jpeg)
 
 [*image source*](https://www.sciencedirect.com/topics/computer-science/point-crossover)
 
@@ -117,7 +117,7 @@ The breeding works by selecting an index randomly (*crossover point*). All genes
 
 *K*\-point crossover works the same as single-point crossover, but instead of one crossover point, we have many. PyGAD supports only `K=2`. In this case, the genes in between the two points are swapped between the parents, yielding again two new offspring.
 
-![TwoPointCrossover](./0Hpja_g1T.jpeg){.img-left}
+![TwoPointCrossover](./0Hpja_g1T.jpeg)
 
 [*image source*](https://www.sciencedirect.com/topics/computer-science/point-crossover)
 
@@ -127,7 +127,7 @@ In a uniform crossover, we essentially flip a coin to decide whether each gene i
 
 Note that in some variants (but not PyGAD), it is possible to bias the coin towards one parent, resulting in children inheriting more from it.
 
-![UniformCrossover](./dbOmV6I7M.jpeg){.img-left}
+![UniformCrossover](./dbOmV6I7M.jpeg)
 
 [*image source*](https://www.sciencedirect.com/topics/computer-science/point-crossover)
 

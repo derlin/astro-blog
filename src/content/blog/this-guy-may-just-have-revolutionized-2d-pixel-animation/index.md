@@ -37,25 +37,25 @@ Each pixel in an image is represented by four values: red, green, blue, and alph
 
 So what if we take the first two bytes, *red* and *green*, and say they represent the `x` and `y` coordinates on another texture? The color of the pixel on this other texture (the *lookup*) would be the actual color the shader renders:
 
-![Color lookup on another texture](./BAEOQjEEj.png){.img-left}
+![Color lookup on another texture](./BAEOQjEEj.png)
 
 Using a real pixel character, this is what it looks like using this technique:
 
-![Color lookup on a model](./wMVYLjXnOP.png){.img-left}
+![Color lookup on a model](./wMVYLjXnOP.png)
 
 Since the red and green values representing coordinates are small, we only see black on the source (right). So let's make the changes in coordinates more obvious:
 
-![Color lookup on a model obvious](./Bz1bqf31Ro.png){.img-left}
+![Color lookup on a model obvious](./Bz1bqf31Ro.png)
 
 ### Endless possibilities
 
 And now you have it! Want to make your character a bit muddy after going through the jungle? Simply edit the lookup texture! No need to touch any of the animations. You could even let the player customize his character as he wants:
 
-![Customization](./kbl4Tiux9.png){.img-left}
+![Customization](./kbl4Tiux9.png)
 
 Since the lookup shows the "full body", you can also put a hairpin on one side of the head, and the 2D animations will properly show or hide it depending on the angle. And this is for free:
 
-![Adding a hairpin](./SUQDTXHqni.gif){.img-left}
+![Adding a hairpin](./SUQDTXHqni.gif)
 
 **✨✨ This is awesome !✨✨**
 

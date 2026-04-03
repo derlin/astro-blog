@@ -10,7 +10,7 @@ tags: ['fastapi', 'python3', 'python-beginner', 'tutorial']
 
 I learned about [FastAPI](https://fastapi.tiangolo.com/) and [Celery](https://docs.celeryq.dev/en/stable/getting-started/introduction.html) when confronted with a simple yet interesting use case
 
-![use case](./00-goal.excalidraw.png){.img-left}
+![use case](./00-goal.excalidraw.png)
 
 I had a Jupyter Notebook that connected to a database, ran some heavy processing on the data (using machine learning and everything), and saved aggregated data back to the database.
 
