@@ -1,13 +1,12 @@
 ---
 import NavSearch from './NavSearch.astro';
+import logo from '../assets/logo.png';
 ---
 
 <header>
 	<nav>
 		<a href="/" class="logo" aria-label="Home">
-			<svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
-				<polygon points="11,1 21,6 21,16 11,21 1,16 1,6" fill="none" stroke="currentColor" stroke-width="1.5"/>
-			</svg>
+			<img src={logo.src} alt="Derlin logo" style="height:32px;width:auto;border-radius:50%" />
 			DERLIN.
 		</a>
 		<div class="nav-links">
@@ -52,8 +51,8 @@ import NavSearch from './NavSearch.astro';
 		text-decoration: none;
 		margin-right: auto;
 	}
+
 	header .logo:hover {
-		color: var(--text);
 		text-decoration: none;
 	}
 	header .nav-links {
