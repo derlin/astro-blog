@@ -2,15 +2,16 @@
 @import '@fontsource-variable/geist-mono';
 
 :root {
-	--bg: #141516;
+	--bg: #0a1123;
+	--codeblock-bg: var(--bg);
 	--bg-surface: #1c1e20;
 	--border: #607d8b;
 	--text: #e2e8f0;
-	--text-muted: #7a8190;
+	--text-muted: #9da8c0;
 	--quote-border: #7a8190;
-	--accent: #60a5fa;
-	--accent-hover: #93c5fd;
-	--code-bg: #1e2433;
+	--accent: #00bcd4;
+	--accent-hover: #ffc107;
+	--code-border: #7c8291;
 	--box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -50,8 +51,6 @@ h2 { font-size: 1.6em; }
 h3 { font-size: 1.3em; }
 h4 { font-size: 1.1em; }
 
-p { margin: 0 0 1.25em; }
-
 strong, b { font-weight: 700; }
 
 hr {
@@ -82,7 +81,7 @@ code {
 	font-family: "Geist Mono Variable", "JetBrains Mono", monospace;
 	font-size: 0.875em;
 	padding: 0.15em 0.4em;
-	background: var(--code-bg);
+	border: 1px solid var(--code-border);
 	border-radius: 4px;
 	color: #e2e8f0;
 }
@@ -93,6 +92,7 @@ pre {
 	border-radius: 8px;
 	overflow-x: auto;
 	margin: 1.5em 0;
+	background: var(--codeblock-bg) !important;
 	border: 1px solid var(--border);
 }
 pre > code {
