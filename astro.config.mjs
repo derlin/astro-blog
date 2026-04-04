@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import rehypeExternalLinks from 'rehype-external-links';
+import rehypeCallouts from 'rehype-callouts';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,6 +16,7 @@ export default defineConfig({
 	markdown: {
 		rehypePlugins: [
 			rehypeSlug,
+			rehypeCallouts,
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
 			[rehypeAutolinkHeadings, {
 				behavior: 'prepend',

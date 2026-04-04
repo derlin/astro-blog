@@ -86,10 +86,8 @@ client.indices.exists("my-index")
 
 ### elasticsearch &gt;= 8
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Most snippets are still referencing <code>RequestsHttpConnection</code> (see next section), a class that was removed in <code>elasticsearch</code> 8.X. If you were googling for the error <code>cannot import name 'RequestsHttpConnection' from 'elasticsearch’</code>, you are at the right place!</div>
-</div>
+> [!note]
+> Most snippets are still referencing `RequestsHttpConnection` (see next section), a class that was removed in `elasticsearch` 8.X. If you were googling for the error `cannot import name 'RequestsHttpConnection' from 'elasticsearch'`, you are at the right place!
 
 Install `elasticsearch` (this should install `elastic-transport` as well), and `requests_aws4auth` . The latter, based on `requests`, is required to handle authentication to AWS:
 
