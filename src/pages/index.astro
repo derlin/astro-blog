@@ -20,7 +20,7 @@ function formatDate(date: Date) {
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
-	<body>
+	<body data-pagefind-ignore>
 		<Header />
 		<main>
 			<ul>
@@ -124,6 +124,9 @@ function formatDate(date: Date) {
 		display: block;
 	}
 	@media (max-width: 520px) {
-		.post-cover { display: none; }
+		.post-link { flex-direction: column-reverse; }
+		.post-cover { width: 100%; }
+		.post-cover img { width: 100%; }
+		.post-desc { display: block; }
 	}
 </style>
