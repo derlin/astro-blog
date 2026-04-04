@@ -20,7 +20,7 @@ I wanted to share this journey, and who knows, maybe inspire you to take a 🔥 
 - [How this challenge changed my life](#how-this-challenge-changed-my-life)
     
 
-🔖 I created this Table of Contents using [BitDownToc](https://derlin.github.io/bitdowntoc/). If you are curious, read my article: [Finally a clean and easy way to add Table of Contents to dev.to articles 🤩](https://blog.derlin.ch/add-a-table-of-contents-to-devto-articles)
+🔖 I created this Table of Contents using [BitDownToc](https://derlin.github.io/bitdowntoc/). If you are curious, read my article: [Finally a clean and easy way to add Table of Contents to dev.to articles 🤩](add-a-table-of-contents-to-devto-articles)
 
 ---
 

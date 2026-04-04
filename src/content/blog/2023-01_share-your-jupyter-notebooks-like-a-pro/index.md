@@ -13,7 +13,7 @@ Are you doing data analysis with Jupyter Notebook? Here is how to create beautif
 
 I recently published an in-depth analysis of the top tags on [dev.to](https://dev.to):
 
-[https://blog.derlin.ch/devto-is-for-webdevs-and-beginners-i-have-data-to-prove-it](https://blog.derlin.ch/devto-is-for-webdevs-and-beginners-i-have-data-to-prove-it) 
+⮕ [dev.to is for webdevs and beginners - I have data to prove it](devto-is-for-webdevs-and-beginners-i-have-data-to-prove-it)
 
 To back it up, I published the full analysis notebooks on GitHub Pages:
 

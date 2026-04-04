@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
-    "preview": "astro preview",
+    "preview": "astro preview --host",
     "astro": "astro",
     "toc": "node toc.mjs"
   },
@@ -20,6 +20,7 @@
     "@fontsource-variable/geist-mono": "^5.2.7",
     "astro": "^6.1.3",
     "rehype-autolink-headings": "^7.1.0",
+    "rehype-external-links": "^3.0.0",
     "rehype-slug": "^6.0.0",
     "sharp": "^0.34.3"
   },
