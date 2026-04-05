@@ -1,165 +1,191 @@
-@import '@fontsource-variable/geist';
-@import '@fontsource-variable/geist-mono';
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
 
 :root {
-	--bg: #0a1123;
-	--codeblock-bg: var(--bg);
-	--bg-surface: var(--bg);
-	--border: #607d8b;
-	--text: #e2e8f0;
-	--text-muted: #9da8c0;
-	--quote-border: #7a8190;
-	--accent: #00bcd4;
-	--accent-hover: #ffc107;
-	--code-border: #7c8291;
-	--box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --bg: #0a1123;
+  --codeblock-bg: var(--bg);
+  --bg-surface: var(--bg);
+  --border: #607d8b;
+  --text: #e2e8f0;
+  --text-muted: #9da8c0;
+  --quote-border: #7a8190;
+  --accent: #00bcd4;
+  --accent-hover: #ffc107;
+  --code-border: #7c8291;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-*, *::before, *::after {
-	box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-	font-family: "Geist Variable", -apple-system, BlinkMacSystemFont, sans-serif;
-	margin: 0;
-	padding: 0;
-	background: var(--bg);
-	color: var(--text);
-	font-size: 18px;
-	line-height: 1.5;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
+  font-family: "Geist Variable", -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 a {
-	color: var(--accent);
-	text-decoration: none;
+  color: var(--accent);
+  text-decoration: none;
 }
 a:hover {
-	color: var(--accent-hover);
-	text-decoration: underline;
+  color: var(--accent-hover);
+  text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 1.5em 0 0.5rem;
-	color: var(--text);
-	line-height: 1.25;
-	font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 0.5rem;
+  color: var(--text);
+  line-height: 1.25;
+  font-weight: 700;
 }
-h1 { font-size: 2.25em; }
-h2 { font-size: 1.6em; }
-h3 { font-size: 1.3em; }
-h4 { font-size: 1.1em; }
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
+}
 
-strong, b { font-weight: 700; }
+strong,
+b {
+  font-weight: 700;
+}
 
 hr {
-	border: none;
-	border-top: 1px solid var(--border);
-	margin: 2em 0;
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 /* Image alignment (from hashnode migration) */
 .img-center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .img-left {
-	display: block;
-	margin-right: auto;
+  display: block;
+  margin-right: auto;
 }
 
 /* Inline code */
 code {
-	font-family: "Geist Mono Variable", "JetBrains Mono", monospace;
-	font-size: 0.875em;
-	padding: 0.15em 0.4em;
-	border: 1px solid var(--code-border);
-	border-radius: 4px;
-	color: #e2e8f0;
+  font-family: "Geist Mono Variable", "JetBrains Mono", monospace;
+  font-size: 0.875em;
+  padding: 0.15em 0.4em;
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  color: #e2e8f0;
 }
 
 /* Code blocks (Shiki) */
 pre {
-	padding: 1.25em 1.5em;
-	border-radius: 8px;
-	overflow-x: auto;
-	margin: 1.5em 0;
-	background: var(--codeblock-bg) !important;
-	border: 1px solid var(--border);
+  padding: 1.25em 1.5em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  background: var(--codeblock-bg) !important;
+  border: 1px solid var(--border);
 }
 pre > code {
-	all: unset;
-	font-family: "Geist Mono Variable", "JetBrains Mono", monospace;
-	font-size: 0.875em;
+  all: unset;
+  font-family: "Geist Mono Variable", "JetBrains Mono", monospace;
+  font-size: 0.875em;
 }
 
 /* Blockquote */
 blockquote {
-	border-left: 0.3rem solid var(--quote-border);
-	border-radius: 0.4rem;
-	margin: 1.5em 0;
-	padding: 0.25em 0 0.25em 1.25em;
-	font-style: italic;
+  border-left: 0.3rem solid var(--quote-border);
+  border-radius: 0.4rem;
+  margin: 1.5em 0;
+  padding: 0.25em 0 0.25em 1.25em;
+  font-style: italic;
 }
 
 /* Tables */
 table {
-	width: 100%;
-	border-collapse: collapse;
-	margin: 1.5em 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
 }
-th, td {
-	padding: 0.5em 0.75em;
-	border: 1px solid var(--border);
-	text-align: left;
+th,
+td {
+  padding: 0.5em 0.75em;
+  border: 1px solid var(--border);
+  text-align: left;
 }
 th {
-	background: var(--bg-surface);
-	font-weight: 600;
+  background: var(--bg-surface);
+  font-weight: 600;
 }
 
 /* Lists */
-ul, ol {
-	padding-left: 1.5em;
-	margin: 0 0 1.25em;
+ul,
+ol {
+  padding-left: 1.5em;
+  margin: 0 0 1.25em;
 }
-li { margin-bottom: 0.25em; }
+li {
+  margin-bottom: 0.25em;
+}
 
 /* YouTube embeds */
 .embed-youtube {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	border-radius: 8px;
-	margin: 1.5em 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 1.5em 0;
 }
 .embed-youtube iframe {
-	position: absolute;
-	top: 0; left: 0;
-	width: 100%; height: 100%;
-	border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .sr-only {
-	position: absolute !important;
-	width: 1px; height: 1px;
-	padding: 0; margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border: 0;
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* rehype-callouts fixes */
 .callout {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }

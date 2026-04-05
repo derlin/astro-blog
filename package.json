@@ -10,6 +10,7 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview --host",
     "astro": "astro",
+    "format": "biome format . --write",
     "toc": "node toc.mjs"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "sharp": "^0.34.3"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.10",
     "pagefind": "^1.4.0"
   }
 }

@@ -1,24 +1,29 @@
 ---
-import { Image } from 'astro:assets';
-import type { MarkdownHeading } from 'astro';
-import type { CollectionEntry } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
+import { Image } from "astro:assets";
+import type { MarkdownHeading } from "astro";
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 
-type Props = CollectionEntry<'blog'>['data'] & { headings: MarkdownHeading[] };
+type Props = CollectionEntry<"blog">["data"] & { headings: MarkdownHeading[] };
 
-const { title, description, pubDate, updatedDate, heroImage, headings } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, headings } =
+  Astro.props;
 
 const displayDate = updatedDate ?? pubDate;
-const dateLabel = updatedDate ? 'Updated' : 'Published';
+const dateLabel = updatedDate ? "Updated" : "Published";
 
 const tocHeadings = headings
-	.filter(h => h.depth <= 3)
-	.map(h => ({ ...h, text: h.text.replace(/^#+\s*/, '') }));
+  .filter((h) => h.depth <= 3)
+  .map((h) => ({ ...h, text: h.text.replace(/^#+\s*/, "") }));
 
 function formatDate(date: Date) {
-	return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  return date.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 }
 ---
 
