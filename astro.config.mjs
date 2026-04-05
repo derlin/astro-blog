@@ -10,7 +10,8 @@ import rehypeCallouts from "rehype-callouts";
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || "http://localhost:4321",
+  site: process.env.SITE || "http://localhost:4321",
+  base: process.env.BASE || "/",
   integrations: [mdx(), sitemap()],
   trailingSlash: "always",
   markdown: {

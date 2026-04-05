@@ -1,4 +1,8 @@
 ---
+
+import { FULL_BASE_URL } from '../constants';
+const pagefindUrl = `${FULL_BASE_URL}pagefind/pagefind.js`;
+
 ---
 
 <div class="search-wrapper" id="search-wrapper">
@@ -195,7 +199,7 @@
 	}
 </style>
 
-<script>
+<script define:vars={{ pagefindUrl }}>
 (function () {
 		const wrapper = document.getElementById('search-wrapper');
 		const toggle = document.getElementById('search-toggle');
@@ -204,16 +208,15 @@
 		const input = document.getElementById('search-input');
 		const results = document.getElementById('search-results');
 
-		let pagefind: any = null;
+		let pagefind = null;
 
 		async function loadPagefind() {
 			if (pagefind) return;
 			try {
-				const src = '/pagefind/pagefind.js';
-			pagefind = await import(/* @vite-ignore */ src);
+				pagefind = await import(/* @vite-ignore */ pagefindUrl);
 				await pagefind.init();
 			} catch (e) {
-				console.warn('Pagefind not available (run npm run build first)', e);
+				console.warn('Pagefind not available (run npm run build first)', pagefindUrl, e);
 			}
 		}
 
@@ -243,7 +246,7 @@
 			if (e.key === 'Escape') close();
 		});
 
-		let debounce: ReturnType<typeof setTimeout>;
+		let debounce; //: ReturnType<typeof setTimeout>
 		input.addEventListener('input', () => {
 			clearTimeout(debounce);
 			debounce = setTimeout(async () => {

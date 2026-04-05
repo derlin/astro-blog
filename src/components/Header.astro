@@ -1,11 +1,12 @@
 ---
 import NavSearch from "./NavSearch.astro";
 import logo from "../assets/logo.png";
+import { FULL_BASE_URL } from '../constants';
 ---
 
 <header>
 	<nav>
-		<a href="/" class="logo" aria-label="Home">
+		<a href={FULL_BASE_URL} class="logo" aria-label="Home">
 			<img src={logo.src} alt="Derlin logo" style="height:32px;width:auto;border-radius:50%" />
 			DERLIN.
 		</a>

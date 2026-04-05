@@ -25,3 +25,5 @@ public/pagefind/
 
 # jetbrains setting folder
 .idea/
+
+.claude
