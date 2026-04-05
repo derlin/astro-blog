@@ -9,15 +9,26 @@
 		</svg>
 	</button>
 
+	<div class="search-backdrop" id="search-backdrop"></div>
+
 	<div class="search-panel" id="search-panel">
-		<input
-			id="search-input"
-			type="search"
-			placeholder="Search…"
-			autocomplete="off"
-			spellcheck="false"
-		/>
-		<ul id="search-results" role="listbox" hidden></ul>
+		<div class="search-header">
+			<input
+				id="search-input"
+				type="search"
+				placeholder="Search…"
+				enterkeyhint="search"
+				autocomplete="off"
+				spellcheck="false"
+			/>
+			<button class="search-close" id="search-close" aria-label="Close search">
+				<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+					<line x1="18" y1="6" x2="6" y2="18"/>
+					<line x1="6" y1="6" x2="18" y2="18"/>
+				</svg>
+			</button>
+		</div>
+		<ul id="search-results" role="listbox"></ul>
 	</div>
 </div>
 
@@ -41,68 +52,115 @@
 	.search-wrapper.open .search-toggle {
 		color: var(--text);
 	}
+
+	/* Backdrop */
+	.search-backdrop {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.6);
+		z-index: 199;
+	}
+	.search-wrapper.open .search-backdrop {
+		display: block;
+	}
+
+	/* Spotlight panel */
 	.search-panel {
 		display: none;
-		position: absolute;
-		right: 0;
-		top: 50%;
-		transform: translateY(-50%);
+		position: fixed;
+		top: 100px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: calc(100% - 2rem);
+		max-width: 600px;
 		flex-direction: column;
-		align-items: flex-end;
+		background: var(--bg-surface);
+		border: 1px solid var(--border);
+		border-radius: 8px;
+		z-index: 200;
+		max-height: calc(100vh - 120px);
+		overflow: hidden;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 	}
 	.search-wrapper.open .search-panel {
 		display: flex;
 	}
+
+	.search-header {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 1rem;
+		border-bottom: 1px solid var(--border);
+	}
+
 	#search-input {
-		width: 220px;
-		background: var(--bg-surface);
-		border: 1px solid var(--border);
-		border-radius: 6px;
+		flex: 1;
+		background: transparent;
+		border: none;
 		color: var(--text);
-		font-size: 0.875rem;
-		padding: 0.35rem 0.65rem;
+		font-size: 1rem;
+		padding: 0;
 		outline: none;
 	}
-	#search-input:focus {
-		border-color: var(--accent);
+	#search-input::placeholder {
+		color: var(--text-muted);
 	}
 	#search-input::-webkit-search-cancel-button {
 		display: none;
 	}
+
+	.search-close {
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: #ff7eaa;
+		display: flex;
+		align-items: center;
+		padding: 4px;
+		flex-shrink: 0;
+		transition: color 0.15s;
+	}
+	.search-close:hover {
+		color: var(--text);
+	}
+
 	#search-results {
-		position: absolute;
-		top: calc(100% + 6px);
-		right: 0;
-		width: 360px;
-		background: var(--bg-surface);
-		border: 1px solid var(--border);
-		border-radius: 8px;
 		list-style: none;
 		margin: 0;
 		padding: 0.5rem 0;
-		max-height: 420px;
 		overflow-y: auto;
-		box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-		z-index: 200;
+		flex: 1;
 	}
+
+	#search-results:not(:has(li)) {
+		display: none;
+	}
+
 	#search-results li a {
 		display: block;
-		padding: 0.6rem 1rem;
+		padding: 0.75rem 1rem;
 		text-decoration: none;
 		color: var(--text);
 		font-size: 0.875rem;
 	}
 	#search-results li a:hover,
 	#search-results li a:focus {
-		background: var(--border);
+		color: var(--accent-hover);
 		text-decoration: none;
 		outline: none;
 	}
+
 	#search-results .result-title {
 		font-weight: 600;
 		display: block;
 		margin-bottom: 0.15rem;
 	}
+
 	#search-results .result-excerpt {
 		color: var(--text-muted);
 		font-size: 0.8rem;
@@ -111,15 +169,29 @@
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}
+
 	#search-results .result-excerpt mark {
 		background: none;
 		color: var(--accent);
 		font-weight: 600;
 	}
+
 	#search-results .no-results {
-		padding: 0.6rem 1rem;
+		padding: 0.75rem 1rem;
 		color: var(--text-muted);
 		font-size: 0.875rem;
+	}
+
+	/* Mobile */
+	@media (max-width: 640px) {
+		.search-panel {
+			top: 1rem;
+			left: 0.5rem;
+			right: 0.5rem;
+			width: auto;
+			transform: none;
+			max-height: 100dvh;
+		}
 	}
 </style>
 
@@ -127,7 +199,8 @@
 (function () {
 		const wrapper = document.getElementById('search-wrapper');
 		const toggle = document.getElementById('search-toggle');
-		const panel = document.getElementById('search-panel');
+		const backdrop = document.getElementById('search-backdrop');
+		const closeBtn = document.getElementById('search-close');
 		const input = document.getElementById('search-input');
 		const results = document.getElementById('search-results');
 
@@ -152,22 +225,22 @@
 		}
 
 		function close() {
-			results.hidden = true;
 			wrapper.classList.remove('open');
 			toggle.setAttribute('aria-expanded', 'false');
 			input.value = '';
+			results.innerHTML = '';
 		}
 
 		toggle.addEventListener('click', () => {
 			wrapper.classList.contains('open') ? close() : open();
 		});
 
+		closeBtn.addEventListener('click', close);
+
+		backdrop.addEventListener('click', close);
+
 		document.addEventListener('keydown', (e) => {
 			if (e.key === 'Escape') close();
-		});
-
-		document.addEventListener('click', (e) => {
-			if (!wrapper.contains(e.target)) close();
 		});
 
 		let debounce: ReturnType<typeof setTimeout>;
@@ -176,7 +249,7 @@
 			debounce = setTimeout(async () => {
 				const query = input.value.trim();
 				if (!query || !pagefind) {
-					results.hidden = true;
+					results.innerHTML = '';
 					return;
 				}
 				const search = await pagefind.search(query);
@@ -194,8 +267,14 @@
 						results.appendChild(li);
 					}
 				}
-				results.hidden = false;
 			}, 200);
+		});
+
+		// Make the "search" action on mobile keyboards discard the keyboard
+		input.addEventListener('keydown', (e) => {
+			if (e.key === 'Enter') {
+				input.blur();
+			}
 		});
 })();
 </script>

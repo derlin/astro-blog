@@ -4,7 +4,7 @@
 :root {
 	--bg: #0a1123;
 	--codeblock-bg: var(--bg);
-	--bg-surface: #1c1e20;
+	--bg-surface: var(--bg);
 	--border: #607d8b;
 	--text: #e2e8f0;
 	--text-muted: #9da8c0;
