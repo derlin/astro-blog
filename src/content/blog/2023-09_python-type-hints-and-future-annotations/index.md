@@ -73,7 +73,7 @@ This is to say, type hints are now really taking off. I would not be surprised t
 
 ### Basics of type hints
 
-I wasn't aware of most of the intricacies of type hints until I tried [migrating a large project to mypy](my-unsuccessful-journey-of-migrating-a-large-django-project-to-mypy) (a good read if you are in a similar process), but I assume most of you are now familiar with the basics of type hints:
+I wasn't aware of most of the intricacies of type hints until I tried [migrating a large project to mypy](../my-unsuccessful-journey-of-migrating-a-large-django-project-to-mypy/) (a good read if you are in a similar process), but I assume most of you are now familiar with the basics of type hints:
 
 ```python
 from typing import List, Dict, Optional

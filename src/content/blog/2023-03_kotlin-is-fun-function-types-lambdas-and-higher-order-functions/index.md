@@ -31,7 +31,7 @@ In this part:
 
 Previous articles in the Series:
 
-1. [Some cool stuff about functions](kotlin-is-fun-some-cool-stuff-about-kotlin-functions)
+1. [Some cool stuff about functions](../kotlin-is-fun-some-cool-stuff-about-kotlin-functions/)
     
 
 ---

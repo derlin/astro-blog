@@ -15,10 +15,7 @@ interface Props {
 
 const { title, description, image = FallbackImage } = Astro.props;
 
-// pathname can be <slug>.html, or index.html for the root
-// we want to strip the .html, and if it is the root, also strip the trailing "/"
-const pathname = Astro.url.pathname.replace(/index\.html$|\.html$/, "");
-const canonicalUrl = new URL(pathname, Astro.site).href.replace(/\/$/, "");
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const imageUrl = new URL(image.src, Astro.site);
 ---
 

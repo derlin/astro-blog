@@ -26,8 +26,8 @@ In this part:
 <sub>🔖 I created this Table of Contents using </sub> [**<sub>BitDownToc</sub>**](https://derlin.github.io/bitdowntoc/)<sub>.</sub>
 
 Previous articles in the Series:
-1. [Some cool stuff about functions](kotlin-is-fun-some-cool-stuff-about-kotlin-functions)
-2. [Function types, lambdas, and higher-order functions](kotlin-is-fun-function-types-lambdas-and-higher-order-functions)
+1. [Some cool stuff about functions](../kotlin-is-fun-some-cool-stuff-about-kotlin-functions/)
+2. [Function types, lambdas, and higher-order functions](../kotlin-is-fun-function-types-lambdas-and-higher-order-functions/)
     
 
 ---

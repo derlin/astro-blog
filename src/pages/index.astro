@@ -30,7 +30,7 @@ function formatDate(date: Date) {
 			<ul>
 				{posts.map((post) => (
 					<li>
-						<a href={`${post.data.slug}`} class="post-link">
+						<a href={`${post.data.slug}/`} class="post-link">
 							<div class="post-text">
 								<h2 class="post-title">{post.data.title}</h2>
 								<p class="post-meta">

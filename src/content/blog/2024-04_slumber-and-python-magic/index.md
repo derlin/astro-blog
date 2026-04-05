@@ -10,7 +10,7 @@ tags: ['python', 'tips', 'developer']
 
 Slumber is one of those libraries you don't need, but can't live without once you learn about it (much like [attrs](https://www.attrs.org/en/stable/)!). It covers a generic use case - interacting with RESTful services - and is a prime example of what only the Python language lets you do. Intrigued? Let me explain!
 
-🤲 (NOTE) I recently published a new library - [mantelo](https://github.com/derlin/mantelo) - that leverages the magic of slumber to provide a fully-fledged Keycloak Admin Client. Read more in my other article → [https://blog.derlin.ch/introducing-mantelo](introducing-mantelo).
+🤲 (NOTE) I recently published a new library - [mantelo](https://github.com/derlin/mantelo) - that leverages the magic of slumber to provide a fully-fledged Keycloak Admin Client. Read more in my other article → [https://blog.derlin.ch/introducing-mantelo](../introducing-mantelo/).
 
 ---
 

@@ -12,7 +12,7 @@ import rehypeCallouts from "rehype-callouts";
 export default defineConfig({
   site: process.env.SITE_URL || "http://localhost:4321",
   integrations: [mdx(), sitemap()],
-  trailingSlash: "never",
+  trailingSlash: "always",
   markdown: {
     rehypePlugins: [
       rehypeSlug,
@@ -35,7 +35,7 @@ export default defineConfig({
     },
   },
   build: {
-    format: "file", // This outputs 'about.html' instead of 'about/index.html'
+    format: "directory", // This outputs '<slug>/index.html'
   },
   vite: {
     build: {

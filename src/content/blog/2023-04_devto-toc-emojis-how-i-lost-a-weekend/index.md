@@ -28,7 +28,7 @@ When you preview or save it on dev.to, it becomes:
 </h2>
 ```
 
-As you can see, [**dev.to**](http://dev.to) automatically adds a `<a>` with a `name` attribute. The latter is called an *anchor*: the `hello-devto` can be used in a *fragment link* for navigation, using hashtag + anchor: `#hello-devto` (see [**Finally a clean and easy way to add a table of contents to**](add-a-table-of-contents-to-devto-articles) [**dev.to**](http://dev.to) [**articles 🤩**](add-a-table-of-contents-to-devto-articles) for more information).
+As you can see, [**dev.to**](http://dev.to) automatically adds a `<a>` with a `name` attribute. The latter is called an *anchor*: the `hello-devto` can be used in a *fragment link* for navigation, using hashtag + anchor: `#hello-devto` (see [**Finally a clean and easy way to add a table of contents to dev.to articles dev.to articles**](../add-a-table-of-contents-to-devto-articles/) for more information).
 
 To generate a table of contents for [**dev.to**](http://dev.to), you thus need to know how those anchors are generated, to point to the right fragment link.
 
