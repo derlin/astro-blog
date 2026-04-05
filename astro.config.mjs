@@ -10,7 +10,7 @@ import rehypeCallouts from 'rehype-callouts';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://blog.derlin.ch',
+	site: process.env.SITE_URL || 'http://localhost:4321',
 	integrations: [mdx(), sitemap()],
 	trailingSlash: "never",
 	markdown: {
