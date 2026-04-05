@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "DERLIN.";
 export const SITE_DESCRIPTION =
-  "A blog about code, dev tools, and occasionally other things.";
+  "A blog about tech, and occasionally other things.";
 
 // Distinguish between development and production environments
 export const CANONICAL_BASE_URL = "https://blog.derlin.ch/";

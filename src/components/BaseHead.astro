@@ -4,7 +4,7 @@
 import "../styles/global.css";
 import "rehype-callouts/theme/github";
 import type { ImageMetadata } from "astro";
-import FallbackImage from "../assets/blog-placeholder-1.jpg";
+import FallbackImage from "../assets/default-social-preview.png";
 import {
   SITE_TITLE,
   FULL_BASE_URL,
@@ -36,7 +36,6 @@ const imageUrl = new URL(image.src, FULL_BASE_URL);
 	title={SITE_TITLE}
 	href={`${FULL_BASE_URL}rss.xml`}
 />
-<meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
 <link rel="preload" href={`${FULL_BASE_URL}fonts/atkinson-regular.woff`} as="font" type="font/woff" crossorigin />
