@@ -15,7 +15,10 @@ interface Props {
 
 const { title, description, image = FallbackImage } = Astro.props;
 
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+// pathname can be <slug>.html, or index.html for the root
+// we want to strip the .html, and if it is the root, also strip the trailing "/"
+const pathname = Astro.url.pathname.replace(/index\.html$|\.html$/, "");
+const canonicalUrl = new URL(pathname, Astro.site).href.replace(/\/$/, "");
 const imageUrl = new URL(image.src, Astro.site);
 ---
 
@@ -52,8 +55,8 @@ const imageUrl = new URL(image.src, Astro.site);
 <meta property="og:image" content={imageUrl} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalUrl} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={imageUrl} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalUrl} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
