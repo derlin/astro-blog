@@ -7,8 +7,8 @@ on:
 
 env:
   # Tell Astro where it is deployed
-  SITE: https://derlin.github.io
-  BASE: /astro-blog
+  SITE: ${{ vars.ASTRO_SITE }}
+  BASE: ${{ vars.ASTRO_BASE_PATH || '' }}
 
 permissions:
   contents: read
@@ -19,13 +19,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Check Environment
+        run: |
+          echo "SITE: $SITE"
+          echo "BASE: $BASE"
+          [ "$SITE" ] || { echo "Error: SITE environment variable is required"; exit 1; }
+      - name: Checkout
         uses: actions/checkout@v6
-      - name: Install, build, and upload your site
+      - name: Install, Build, and Upload
         uses: withastro/action@v6
         with:
           node-version: 24
           build-cmd: npm run format:check && npm run build
+      - name: Summary
+        run: echo "Site built successfully 🚀 (SITE=$SITE, BASE='$BASE')" >> $GITHUB_STEP_SUMMARY
 
   deploy:
     needs: build
