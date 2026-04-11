@@ -3,7 +3,7 @@
 This repository contains the source of my personal blog, https://blog.derlin.ch.
 It is built with Astro and published via GitHub Actions (so no Astro on the server side, pure static site!).
 
-> ![note]
+> [!note]
 > The blog was migrated from hashnode in April 2026. All the content was imported, and images remapped to be served directly (instead of through the hashnode CDN).
 
 ## Design choices

@@ -14,7 +14,7 @@ So let's go together through all the steps required to create a robust and reusa
 
 * * *
 
-The full workflow is available here: https://github.com/derlin/rickroller/blob/main/.github/workflows/reusable\_docker-build-and-push.yaml. Use [this link](https://github.com/derlin/rickroller/blob/8b03ab644c8888d4bd04648977d1c1161f1cc66a/.github/workflows/reusable_docker-build-and-push.yaml) to consult the exact version at the time of writing.
+The full workflow is available here: https://github.com/derlin/rickroller/blob/main/.github/workflows/reusable_docker-build-and-push.yaml. Use [this link](https://github.com/derlin/rickroller/blob/8b03ab644c8888d4bd04648977d1c1161f1cc66a/.github/workflows/reusable_docker-build-and-push.yaml) to consult the exact version at the time of writing.
 
 As [rickroller](https://github.com/derlin/rickroller) is a pretext to play with Google Cloud Run, GitHub actions and to try Open Source best practices, you can find a lot of details in the [README](https://github.com/derlin/rickroller) about GitHub Actions, but not only. Feel free to have a look and leave a ⭐ !
 
