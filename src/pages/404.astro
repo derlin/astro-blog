@@ -1,0 +1,150 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE } from "../constants";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="404 - Page Not Found" description="The page you're looking for doesn't exist." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="container">
+				<div class="error-code">404</div>
+				<h1>Lost in the void</h1>
+				<p class="error-message">
+					The page you're looking for has taken a vacation. I am not entirely sure where it went.
+				</p>
+				<div class="ascii-art">
+					<pre>{`
+01010
+|>_<|
+/| |\\
+ ^ ^
+				`}</pre>
+				</div>
+				<a href="/" class="back-link">← Back to home</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	main {
+		min-height: calc(100vh - 200px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem 1.5rem;
+	}
+
+	.container {
+		text-align: center;
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.error-code {
+		font-size: 8rem;
+		font-weight: 900;
+		margin: 0;
+		background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		letter-spacing: -2px;
+		line-height: 1;
+		animation: float 3s ease-in-out infinite;
+	}
+
+	h1 {
+		margin: 0.5rem 0 1rem;
+		font-size: 2.5rem;
+		color: var(--text);
+	}
+
+	.error-message {
+		font-size: 1.1rem;
+		color: var(--text-muted);
+		margin: 0 0 2rem;
+		line-height: 1.6;
+	}
+
+	.ascii-art {
+		margin: 2rem 0;
+		color: white;
+		animation: wiggle 2s ease-in-out infinite;
+	}
+
+	.ascii-art pre {
+		background: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+		font-family: monospace;
+		font-size: 1.2rem;
+		overflow: visible;
+	}
+
+	.back-link {
+		display: inline-block;
+		padding: 0.75rem 1.5rem;
+		margin-top: 2rem;
+		background: var(--accent);
+		color: var(--bg);
+		border-radius: 6px;
+		transition: all 0.3s ease;
+		font-weight: 600;
+	}
+
+	.back-link:hover {
+		background: var(--accent-hover);
+		color: var(--bg);
+		text-decoration: none;
+		transform: translateX(-4px);
+	}
+
+	@keyframes float {
+		0%, 100% {
+			transform: translateY(0px);
+		}
+		50% {
+			transform: translateY(-20px);
+		}
+	}
+
+	@keyframes wiggle {
+		0%, 100% {
+			transform: rotate(0deg);
+		}
+		25% {
+			transform: rotate(1deg);
+		}
+		75% {
+			transform: rotate(-1deg);
+		}
+	}
+
+	@media (max-width: 520px) {
+		main {
+			min-height: calc(100vh - 150px);
+		}
+
+		.error-code {
+			font-size: 5rem;
+		}
+
+		h1 {
+			font-size: 1.8rem;
+		}
+
+		.error-message {
+			font-size: 1rem;
+		}
+	}
+</style>
